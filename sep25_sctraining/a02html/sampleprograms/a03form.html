@@ -11,7 +11,7 @@
     </header>
 
     <main>
-        <form action="#" method="get">
+        <form action="whereotprocess" method="get">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="first-name">First Name:</label>
@@ -53,15 +53,15 @@
                 <input type="text" id="health-conditions" name="health-conditions">
 
                 <label for="blood-type">Blood Type:</label>
-                <input type="radio" id="a+" name="blood-type" value="A+" required>
+                <input type="radio" id="a+" name="blood-type" value="1" required checked>
                 <label for="a+">A+</label>
-                <input type="radio" id="o+" name="blood-type" value="O+">
-                <label for="o+">O+</label>
-                <input type="radio" id="b+" name="blood-type" value="B+">
+                <input type="radio" id="o+" name="blood-type" value="0">
+                <label for="o+">you are selecting O+</label>
+                <input type="radio" id="b+" name="blood-type" value="2">
                 <label for="b+">B+</label>
-                <input type="radio" id="ab+" name="blood-type" value="AB+">
+                <input type="radio" id="ab+" name="blood-type" value="3">
                 <label for="ab+">AB+</label>
-                <input type="radio" id="other" name="blood-type" value="other">
+                <input type="radio" id="other" name="blood-type" value="-1">
                 <label for="other">Other</label>
             </fieldset>
 
@@ -85,7 +85,7 @@
                 </select>
             </fieldset>
 
-            <button type="submit">Submit</button>
+            <button type="">Submit</button>
         </form>
     </main>
 

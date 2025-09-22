@@ -1,0 +1,218 @@
+name.
+which college you did you engineering from. which place.
+which branch of engineering.
+
+
+
+
+
+
+
+
+
+
+we will live week by week..
+
+1. get some basics on web technology... you have do some assingments.
+nothing called project work in first week..
+2. assignment doing... using ai tool more like tutor is ok, but unconscious
+copy pasting of code is big sin, we should never do it..
+3. all the 4 weeks, everything that will be explained will be simple.
+and no complicated thing will be spoken..
+if intent is to apply, then we cannot complicate things..
+4. doubts...ask directly in the class..
+who want to ask doubts anonymously...
+https://forms.gle/mSZW7KRSHKW141qt6
+5. what you will be doing..
+
+
+
+c:\users\bankid\bootcamp\html reference... you keep the pdf here..
+
+
+
+
+no matter whatever is technology a person who is not clear about
+his folder structure is pathetic person..
+
+
+goldenversions
+
+bootcamp
+
+
+checklist.
+1. have you got visual code folder in your goldenversions..
+2. in your bootcamp folder.. you have folder htmlprograms\ reference\ pdf..
+3. you have created a shortcut for viscual code in your desktop... (trivial but importan t)
+
+always use proper nowns while talking that is only way to make other people understand
+
+tell something and tell for example...
+
+
+Web technology?
+what is web ?
+web you must use http protocol.
+
+
+it is a page on the internet..
+what is internet?
+wireless mode of signals..
+
+web
+event.
+api
+all these words have technical meaning and people should its meaning first..
+
+practicals is important.. but without theory.. you will do practicals for 1000 years..
+and still be zero in the subject.
+
+totally agreed practicals matter we should talk only theory but zero theory
+is a sin... the person will create misery in the project.
+for example what is web..
+
+
+IN a system every thing small as well as big is important. but 
+what we should do, know what is our role and learn a little bit about
+other person roles also...
+
+what do you mean by deploy?
+can you take the page and make it available via http requests..
+who will access it depends on the business logic.
+
+file:///F:/work/sep25_sctraining/a02html/sampleprograms/a00view.html
+so we have a web page, but no web application...
+
+our job is to learn html, css ,bootstrap and javascript this week.
+
+what is purpose of html.
+html decides the structure of the web page while building web based presentations.
+for example
+
+I am building a html page... ok I need some layout, i need some header, i need
+the body to be made into 3 sections.. i Need a footer. I needa  form....
+this is called as structure of the web page..
+
+start doing home work in terms of what colors, what fonts standarded chartered
+uses and start imitating the same dont show creativity...
+
+
+First think what to cook ,then we will how to cook?
+start cooking and then find out what we cooked, pathetic.
+
+all these things will happen on week1
+
+1. html + css.
+2. html+ bootstrap
+3.html+bootstrap+javascript.
+
+keep your bp level normal...
+
+
+for a topic called X which is the best website?
+what is your answer?
+official website. always..
+which is official website for html, css, javascript.... MDN .. gret answer.
+that is official one..
+
+first read official website and then other freaky websites..
+
+
+example of freakly websites..  geekforgeek.. pathetic...
+stackoverflow..
+
+some tags will introduce a new line..  -- box tags
+and some tags will not introduce a new line  -- inline tags
+
+talking about block alone will not make sense in html, you should take into consideration
+css also.. only then talking about block will make sense..
+
+kids hate constraints, adults like constrain
+
+people who dont know theory and tell I will do only practicals should not talk
+about science..
+
+
+PATH -- is a variable used by Operating system to locate executable files.
+.
+
+
+to save the location of folder or like absolute path of root directory.
+defines the location of where content is stored..
+tht is where we define most of binary files of our example like programming
+langauges aa re....
+
+
+what is a tree datastructure?
+connected graph without cycles.
+
+we are trying to learn html, css first.. and then do some praccticals
+and then learn javascript and hten mix all the 3.. that is only way you can
+build  web page..
+
+
+
+
+http://127.0.0.1:5500/sep25_sctraining/a02html/sampleprograms/a02somemoresyntax.html
+
+why are input elements used in html?
+to take inputs from the user.
+example want to take userid and password..
+
+example textbox, radio button....
+
+why use a form tag in html?
+
+why form tag,, group information.
+presence of form tag tells two things.
+1. we plan to group the information and send it to place called X
+where X will be taking that information and processing it..
+
+
+for anything which is non textbox ensure you give value...
+when things are submitted.. value will be known at the processing place.
+
+kids are afraid of compilation errors. adults are afraid of logical errors.
+
+get and post...
+
+
+<form action="whereotprocesstherequest" method="get">
+
+what is get and post..
+get is used to show information as part of the url.
+post carries information as part of the body..
+
+dont compare things which have different denominators..
+
+before telling this is better, prove you know denominator is same.
+
+
+https://www.redbus.in/search?fromCityName=Mangalore%20Bypass&fromCityId=71819&srcCountry=IND&fromCityType=CITY&toCityName=Mysore&toCityId=129&destCountry=IND&toCityType=CITY&onward=23-Sep-2025&doj=23-Sep-2025&ref=home
+
+
+Never use the word "Security" until you have done 4 a4 sheet pages of homework..\
+
+security involves process and technology dont insult it by only technology..
+
+
+post and get.
+1. both are mode of requests in http..
+2. in get mode information is sent part of header.
+3, in post mode information is sent part of body..
+
+
+
+server sends information to the client in post mode or in get mode by default?
+hey why are you asking me this stupid question.. server sending informationto the client
+is called Response
+
+
+
+
+
+
+
+
+
