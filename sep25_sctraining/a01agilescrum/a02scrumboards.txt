@@ -1,0 +1,87 @@
+scrum boards
+
+A Scrum Board is a visual tool used by Scrum teams to track the progress of work during a Sprint. It shows which tasks are planned, in progress, and done, making the team’s workflow transparent and easy to manage.
+
+---
+🧩 Key Elements Maintained in a Scrum Board:
+
+Most Scrum boards have columns that reflect the status of work items. Here’s what’s typically maintained:
+
+---
+📋 1. Columns (Workflow Stages)
+
+| Column                                    | Description                                                                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Product Backlog (optional on board) | A list of all desired features, fixes, and tasks (maintained by the Product Owner). Often separate from the Scrum Board. |
+
+
+| Sprint Backlog                        | Items selected for the current Sprint. These are moved from the Product Backlog during Sprint Planning.                  |
+
+| To Do                                 | Tasks/stories that are planned for the Sprint but not started yet.                                                       |
+
+
+| In Progress                           | Work that is actively being developed by the team.                                                                       |
+
+
+| In Review / Testing (optional)      | Tasks waiting for code review or QA testing.                                                                  
+           |
+
+| Done                                  | Work that meets the Definition of Done and is complete.                                                              |
+
+---
+ 2. Work Items on the Board
+
+Each item is typically represented as a card or ticket. Common types include:
+
+User Stories (e.g., "As a user, I want to...")
+Tasks (technical work needed to complete a story)
+Bugs (defects to fix)
+Spikes (time-boxed research tasks)
+Sub-tasks (smaller breakdowns of tasks or stories)
+
+Each card may contain:
+
+ Title/description
+ Assignee
+ Status
+ Priority
+ Estimates (story points or hours)
+ Comments/attachments
+ Links to related tickets or documentation
+
+---
+ 3. Optional Metrics & Visuals
+
+Some boards may also include:
+
+Burndown Chart: Shows remaining work over time in the Sprint.
+Work-in-Progress (WIP) Limits: Controls how many tasks can be in each stage to prevent overload.
+Swimlanes: Separate rows to categorize tasks (by team member, feature, or priority).
+Labels/Tags: To categorize work (e.g., “backend”, “urgent”, “QA”).
+
+---
+ Examples of Scrum Board Tools
+
+Physical Board: Whiteboard + sticky notes (used by co-located teams).
+Digital Tools:
+
+   Jira
+   Trello
+   Azure DevOps
+   Monday.com
+   ClickUp
+
+---
+Summary Table
+
+| Element            | Purpose                                      |
+| ------------------ | -------------------------------------------- |
+| Columns            | Show progress stages (To Do → Done)          |
+| Cards (Work Items) | Represent tasks/stories/bugs                 |
+| Labels/Tags        | Add context (e.g., priority, type)           |
+| Assignees          | Show who is responsible for each task        |
+| Estimates          | Track effort (story points or hours)         |
+| Metrics            | Help monitor progress (burndown, WIP limits) |
+
+---
+

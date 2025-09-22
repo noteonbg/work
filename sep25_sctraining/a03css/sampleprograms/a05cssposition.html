@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharma Inventory Dashboard</title>
+  <style>
+    /* position: fixed (header stays at top) */
+    .fixed-alert {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffdddd;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 2px solid red;
+      z-index: 1000;
+    }
+
+    /* position: relative (container for absolute elements) */
+    .drug-card {
+      position: relative;
+      border: 1px solid #ccc;
+      margin: 80px auto 20px auto; /* space from fixed header */
+      padding: 20px;
+      width: 300px;
+      background-color: #eef;
+    }
+
+    /* position: absolute (inside relative parent) */
+    .info-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #88f;
+      color: white;
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 4px;
+    }
+
+    /* position: static (default) */
+    .description {
+      position: static;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed position header (always visible) -->
+  <div class="fixed-alert">
+    🚨 FDA Recall Alert: Batch B2025 of Ibuprofen recalled!
+  </div>
+
+  <!-- Drug card using relative + absolute -->
+  <div class="drug-card">
+    <div class="info-badge">IN STOCK</div>
+    <h2>Paracetamol 500mg</h2>
+    <p class="description">
+      Batch No: PXA145 | Expiry: May 2027
+    </p>
+  </div>
+
+  <!--
+
+fixed .fixed-alert	Sticks to the top of the page, even on scroll (for critical alerts)
+relative	.drug-card	Acts as a positioning context for .info-badge
+absolute	.info-badge	Positioned relative to .drug-card (not the page!)
+static	.description	Default flow; no positioning applied
+  
+  -->
+
+</body>
+</html>

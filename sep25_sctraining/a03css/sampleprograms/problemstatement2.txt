@@ -1,0 +1,73 @@
++-------------------------------+     ← Margin (separates from others)
+|   +-----------------------+   |     ← Border (defines the card)
+|   |                       |   |
+|   |   Account Holder:     |   |     ← Padding (space inside)
+|   |   ABC            |   |
+|   |   Balance: $12,500    |   |
+|   |   Account #: 1234     |   |
+|   |                       |   |
+|   +-----------------------+   |
++-------------------------------+
+
+
+
+ Use margin, padding, border to define layout and spacing for account info
+
+ +------------------------------+     ← Margin (space from content above)
+|   +----------------------+   |     ← Border (solid red)
+|   | ⚠ Low Balance Alert  |   |
+|   |   Account: 4567      |   |     ← Padding (space inside text box)
+|   |   Balance: $23.00    |   |
+|   +----------------------+   |
++------------------------------+
+
+
+Use padding for readability, border for alert, margin to separate warnings.
+
+
+[ Stocks     ]   [ Mutual Fund ]   [ Bonds     ]
++-----------+   +-------------+   +-----------+
+| 💹 Apple  |   | 📈 Index    |   | 🏦 Govt.  |
+| Return: 5%|   | Return: 7%  |   | Return: 3%|
++-----------+   +-------------+   +-----------+
+    ↑ Padding & border      ↑ Margin between cards
+
+Use inline-block or flex, with padding inside each card, and margin between.
+
++---------------------+
+|  Transfer Funds 💵  |     ← Padding makes the button larger
++---------------------+
+         ↑
+    Margin separates from other buttons
+
+
+    5. Market News Banner
+
+    +-------------------------------------------------+
+| 🚨 Interest Rates Raised by 0.5%                |   ← Padding (inside the box)
++-------------------------------------------------+
+            ↑
+        Border-bottom
+            ↓
+        Margin pushes content below
+ Use for top alerts; padding for text spacing, border for visual break.
+
+
+ Transaction History:
+----------------------------
+[ 🏦 Deposit  | $1,000  | 07/27 ]
+----------------------------     ← Border (dashed or solid)
+[ 💸 Payment  | $250    | 07/26 ]
+----------------------------
+[ 💳 Transfer | $500    | 07/25 ]
+
+Each row uses padding for spacing, margin or border to separate.
+
+
+
+
+
+
+
+
+

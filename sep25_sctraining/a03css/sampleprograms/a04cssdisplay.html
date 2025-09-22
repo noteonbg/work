@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manufacturing Display Property Demo</title>
+  <style>
+    /* display: block */
+    .machine-name {
+      display: block;
+      font-weight: bold;
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    /* display: inline */
+    .status-inline {
+      display: inline;
+      background-color: #dff0d8;
+      padding: 5px;
+    }
+
+    /* display: inline-block */
+    .component {
+      display: inline-block;
+      width: 150px;
+      margin: 5px;
+      padding: 10px;
+      background-color: #e0e0ff;
+      border: 1px solid #999;
+    }
+
+    /* display: flex */
+    .machine-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* display: grid */
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* display: none */
+    .maintenance-note {
+      display: none; /* This will hide the element */
+    }
+
+    /* display: table */
+    .machine-table {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .machine-row-table {
+      display: table-row;
+    }
+
+    .machine-cell {
+      display: table-cell;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Machine Status Dashboard</h1>
+
+  <!-- Block -->
+  <span class="machine-name">Machine A</span>
+
+  <!-- Inline -->
+  <span class="status-inline">Running</span>
+  <span class="status-inline">No Errors</span>
+
+  <!-- Inline-block -->
+  <div>
+    <div class="component">Motor</div>
+    <div class="component">Conveyor</div>
+    <div class="component">Sensor</div>
+  </div>
+
+  <!-- Flex -->
+  <div class="machine-row">
+    <div class="component">Cooling Fan</div>
+    <div class="component">Controller</div>
+    <div class="component">Pump</div>
+  </div>
+
+  <!-- Grid -->
+  <div class="grid-layout">
+    <div class="component">Temperature Sensor</div>
+    <div class="component">PLC</div>
+    <div class="component">Power Supply</div>
+  </div>
+
+  <!-- Hidden Element (display: none) -->
+  <div class="maintenance-note">
+    Machine B is under maintenance.
+  </div>
+
+  <!-- Table Layout -->
+  <div class="machine-table">
+    <div class="machine-row-table">
+      <div class="machine-cell">Machine</div>
+      <div class="machine-cell">Status</div>
+      <div class="machine-cell">Temperature</div>
+    </div>
+    <div class="machine-row-table">
+      <div class="machine-cell">Machine C</div>
+      <div class="machine-cell">Idle</div>
+      <div class="machine-cell">40°C</div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+<!--
+
+
+block	.machine-name	Starts on a new line, full width
+inline	.status-inline	Flows with text, no block styling
+inline-block	.component	Like inline, but allows width/height
+flex	.machine-row	Horizontal/vertical alignment, layout
+grid	.grid-layout	Grid-based layout
+none	.maintenance-note	Hidden from the page
+table, table-row, table-cell	.machine-table	Simulates a table layout
+
+
+-->

@@ -1,0 +1,67 @@
+
+CSS Box Model – Problem Statements (Financial Domain)
+
+
+
+1. Create a Bank Account Summary Card
+
+> Design an account summary card that displays the account holder’s name, balance, and account number. Use the CSS Box Model to:
+
+Add spacing around the card so it doesn't touch other content.
+Add padding inside the card to give breathing room around the text.
+Add a solid border to define the card visually.
+
+
+
+2. Style a Low Balance Warning
+
+> Display a warning box for accounts with low balance. Use the CSS Box Model to:
+
+Add a red border to highlight the warning.
+Include padding inside so the warning text doesn’t touch the edges.
+Add margin to separate it from surrounding elements.
+
+
+
+3. Align Investment Cards in a Row
+
+> Create cards for three investment plans (e.g. Stocks, Mutual Funds, Bonds) and lay them out side by side. Use the box model to:
+
+Ensure equal width and spacing between each card.
+Use padding inside the cards for neat layout.
+Add a soft box-shadow for visual separation.
+
+
+
+4. Style a “Transfer Funds” Button
+
+> Design a prominent “Transfer Funds” button with:
+
+Padding to make the button larger and more clickable.
+Margin to give it space from nearby text or buttons.
+A border and background color for visibility.
+
+
+
+5. Create a Notification Banner for Market News
+
+> Add a top banner that displays breaking financial news (e.g. “Interest rates updated”). Use the box model to:
+
+Add padding inside the banner so the text is readable.
+A bottom border for separation.
+Margin below the banner to prevent overlap with content.
+
+
+
+6. Design a Transaction Detail Section
+
+> Build a section that lists recent transactions. Use the box model to:
+
+Add padding inside each transaction block for spacing.
+Use bottom margins to separate each transaction.
+Include a dashed border between transactions for visual clarity.
+
+
+
+
+

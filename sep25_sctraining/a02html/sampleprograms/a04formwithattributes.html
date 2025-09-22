@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Input Attributes Demo</title>
+</head>
+<body>
+  <h1>HTML5 Form Attributes Demo</h1>
+  <form action="/submit" method="post">
+    <!-- Autofocus and placeholder -->
+    <label for="name">Name (autofocus & placeholder):</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" autofocus><br><br>
+
+    <!-- Autocomplete -->
+    <label for="email">Email (autocomplete):</label>
+    <input type="email" id="email" name="email" autocomplete="on"><br><br>
+
+    <!-- Pattern -->
+    <label for="zipcode">Zip Code (pattern 5 digits):</label>
+    <input type="text" id="zipcode" name="zipcode" pattern="\d{5}" placeholder="12345" required><br><br>
+
+    <!-- Multiple -->
+    <label for="files">Upload Files (multiple):</label>
+    <input type="file" id="files" name="files" multiple><br><br>
+
+    <!-- List -->
+    <label for="browser">Choose a browser:</label>
+    <input list="browsers" id="browser" name="browser">
+    <datalist id="browsers">
+      <option value="Chrome">
+      <option value="Firefox">
+      <option value="Safari">
+      <option value="Edge">
+      <option value="Opera">
+    </datalist><br><br>
+
+    <!-- Step, min, max -->
+    <label for="age">Age (step 1, min 0, max 120):</label>
+    <input type="number" id="age" name="age" step="1" min="0" max="120"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

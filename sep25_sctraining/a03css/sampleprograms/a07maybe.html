@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Financial Dashboard</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Menubar styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #002244;
+      color: white;
+      padding: 15px 30px;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .navbar .login-btn {
+      background-color: #ffcc00;
+      color: #002244;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .navbar .login-btn:hover {
+      background-color: #e6b800;
+    }
+
+    /* Subheader (5 columns) styling */
+    .subheader {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      padding: 30px;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+
+    .subheader-item {
+      background-color: #ffffff;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .subheader-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .subheader-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .subheader-item p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">FinBank</div>
+    <button class="login-btn">Login</button>
+  </div>
+
+  <!-- Subheader -->
+  <div class="subheader">
+    <div class="subheader-item">
+      <img src="https://via.placeholder.com/80" alt="Investments">
+      <p>Investments</p>
+    </div>
+    <div class="subheader-item">
+      <img src="https://via.placeholder.com/80" alt="Accounts">
+      <p>Accounts</p>
+    </div>
+    <div class="subheader-item">
+      <img src="https://via.placeholder.com/80" alt="Loans">
+      <p>Loans</p>
+    </div>
+    <div class="subheader-item">
+      <img src="https://via.placeholder.com/80" alt="Cards">
+      <p>Credit Cards</p>
+    </div>
+    <div class="subheader-item">
+      <img src="https://via.placeholder.com/80" alt="Support">
+      <p>Support</p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main layout */
+  main {
+    display: flex;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1000px;
+  }
+  
+  /* Left column: categories */
+  .categories {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .categories h2 {
+    margin-bottom: 15px;
+    color: #004080;
+  }
+  
+  .categories ul {
+    list-style: disc inside;
+  }
+  
+  .categories li {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  /* Right column: featured product */
+  .featured-product {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .featured-product h2 {
+    margin-bottom: 15px;
+    color: #004080;
+  }
+  
+  .featured-product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-product h3 {
+    margin-bottom: 10px;
+  }
+  
+  .featured-product p {
+    font-size: 1.1em;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive: stack columns on narrow screens */
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

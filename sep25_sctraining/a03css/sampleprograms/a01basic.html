@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factory Machine Status</title>
+
+    <!-- 🔹 Internal CSS Styling (in the <head>) -->
+    <style>
+        /* Element selector */
+        h1 {
+            color: navy;
+        }
+
+        /* Class selector */
+        .status-notok {
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        /* ID selector */
+        #machine1 {
+            border: 2px solid gray;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <!-- 🔹 External CSS Styling (link to an external stylesheet) -->
+    <link rel="stylesheet" href="a01styles.css">
+</head>
+<body>
+
+    <h1>Factory Dashboard</h1>
+
+    <!-- Machine block using ID and class -->
+    <div id="machine1" class="status-ok">
+        <h2>Machine A</h2>
+        <p>Status: Running</p>
+        <!-- 🔸 Inline CSS -->
+        <p style="color: green;">Temperature: 75°C</p>
+    </div>
+
+<h2> this is h2 tag at work</h2>
+
+</body>
+</html>

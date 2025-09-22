@@ -1,0 +1,14 @@
+/* This is your external stylesheet */
+
+/* You can still target any selector */
+p {
+    font-family: Arial, sans-serif;
+}
+
+.status-ok {
+    font-weight: bold;
+}
+
+#machine1 h2 {
+    text-decoration: underline;
+}

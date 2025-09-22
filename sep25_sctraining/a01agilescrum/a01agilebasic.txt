@@ -1,0 +1,124 @@
+During Scrum in a project, teams follow a structured framework to develop products incrementally and iteratively. Scrum is designed for complex projects, especially in software development, and it emphasizes collaboration, accountability, and continuous improvement.
+
+project review.
+postgres sql.. connection must be there..
+pga tool.
+pg admin also they have to download.
+.m2 folder copy the settings.xml.
+
+
+
+  Scrum Process Overview
+
+1. Product Backlog Creation:
+
+   * Maintained by the Product Owner.
+   * A prioritized list of features, enhancements, and bug fixes needed in the product.
+
+2. Sprint Planning:
+
+   * A meeting held at the start of each Sprint (usually 1–4 weeks).
+   * The Scrum Team decides what backlog items to work on and how to accomplish the work.
+
+3. Sprint:
+
+   * A time-boxed development cycle (commonly 2 weeks).
+   * The team builds a potentially shippable product increment.
+   * No changes to scope are allowed mid-sprint without team agreement.
+
+4. Daily Scrum (Daily Standup):
+
+   * A 15-minute meeting each day.
+   * Each team member answers:
+
+     1. What did I do yesterday?
+     2. What will I do today?
+     3. Are there any impediments?
+
+     
+   * Helps keep the team aligned and detect blockers early.
+
+5. Sprint Review:
+
+   * Held at the end of the Sprint.
+   * The team demonstrates the work completed to stakeholders.
+   * Feedback is collected to inform future work.
+
+6. Sprint Retrospective:
+
+   * A reflection meeting after the Sprint Review.
+   * The team discusses 
+   what went well,
+    what didn’t, and
+     how to improve.
+
+7. Repeat:
+
+   * The next Sprint begins immediately after the previous one ends.
+
+---
+
+  Scrum Roles
+
+* Product Owner:
+
+  * Owns the product backlog.
+  * Defines priorities based on business value.
+  * Acts as the voice of the customer.
+
+* Scrum Master:
+
+  * Facilitates the Scrum process.
+  * Removes blockers.
+  * Coaches the team in Scrum principles.
+
+* Development Team:
+
+  * Cross-functional professionals who build the product.
+  * Self-organizing and accountable for delivering the work.
+
+---
+
+ Key Concepts
+
+* Increment: The sum of all completed work at the end of a Sprint that is usable and potentially releasable.
+* Definition of Done (DoD): Agreed criteria that must be met for a product increment to be considered complete.
+
+---
+
+single machine..
+
+1. presentable state..
+2. 
+
+working code.
+boards
+repo.
+
+own a story
+complete the use case story...
+complete the react component..
+
+
+----------------------------------------
+expecation is ..
+
+1. got started..
+2. distribution of user stories...
+3. user story...  check you delegate ... .
+check about the link... one user story for them...
+4. owns the entire chain...create the user story...
+monday .. of 80% of ui..
+
+
+----------------------
+
+maven settings
+
+<dependency>
+<groupId>com.h2database</groupId>
+<artifactId>h2</artifactId>
+<version>2.1.214</version>
+<scope>test</scope>
+</dependency>
+ 

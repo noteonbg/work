@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Financial Dashboard</title>
+  <style>
+
+   
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: f9f9f9;
+      color: 333;
+    }
+
+    section {
+      background-color: fff;
+      border: 1px solid ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: 2c3e50;
+    }
+
+    .balance {
+      font-weight: bold;
+      color: 2980b9;
+    }
+
+    .profit {
+      color: green;
+      font-weight: bold;
+    }
+
+    .loss {
+      color: red;
+      font-weight: bold;
+    }
+
+    a {
+      color: 0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /
+  </style>
+</head>
+<body>
+
+  <!-- Block-level element: Account Summary Section -->
+  <section>
+    <h2>Account Summary</h2>
+    <p>Account Number: <span>123456789</span></p>
+    <p>Available Balance: <span class="balance">Rs 5,200.75</span></p>
+  </section>
+
+  <!-- Block-level element: Investment Overview -->
+  <section>
+    <h2>Investment Portfolio</h2>
+    <p>Current Value: <span class="balance">Rs 15,450.00</span></p>
+    <p>Today's Change: <span class="profit">+2.35%</span></p>
+    <p>Monthly Performance: <span class="loss">-1.12%</span></p>
+    <p>To view more details, visit your 
+      <a href="/investment-portfolio">investment portfolio</a>.
+    </p>
+  </section>
+
+</body>
+</html>
+
+
+<!--
+
+Element	Type	Purpose
+<section>	Block-level	Contains logical sections of financial data
+<h2>	Block-level	Section headings
+<p>	Block-level	Describes content in each section
+<span>	Inline	Styles specific parts like balances and changes
+<a>	Inline	Provides a link to further investment details
+
+
+
+
+
+html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+is one of the most important lines in modern responsive web design. Let's break it down in detail:
+
+
+
+ Purpose:
+
+This `<meta>` tag controls how a web page is displayed on mobile devices (phones, tablets) by telling the browser how to scale and size the page.
+
+
+
+ Meta Tag Structure
+
+html
+<meta name="viewport" content="...">
+
+
+ `meta`: An HTML tag used to specify metadata (data about the page).
+ `name="viewport"`: Tells the browser you are defining settings for the viewport (the visible area of a web page on a screen).
+ `content="..."`: Contains the specific instructions for how the viewport should behave.
+
+
+
+Breakdown of `content` Attributes
+
+ 1. `width=device-width`
+
+ Sets the width of the viewport to match the actual width of the device's screen in pixels.
+ This means:
+
+   On a phone with a 375px screen → viewport width becomes 375px
+   On a tablet with 768px width → viewport becomes 768px
+ Without this, the browser might assume a wider screen (e.g. 980px), shrinking your content and making it unreadable.
+
+ Makes your layout responsive and mobile-friendly.
+
+
+
+ 2. `initial-scale=1.0`
+
+ Sets the initial zoom level of the page when it's first loaded.
+ A value of `1.0` means no zoom — the page appears at 100% scale (1 CSS pixel = 1 device pixel).
+
+If you used:
+
+ `initial-scale=2.0` → The page would appear zoomed-in (200%)
+ `initial-scale=0.5` → Page appears zoomed-out (50%)
+
+Ensures users see the page at a natural size without needing to zoom in or out.
+
+
+
+  What Happens If You Leave It Out?
+
+Without this tag:
+
+ Most mobile browsers assume a desktop-sized viewport (around 980px wide).
+ The content gets scaled down to fit, making:
+
+   Text too small to read
+   Buttons hard to tap
+   Layout look broken
+
+
+
+ 
+
+html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+This is the standard and recommended version for responsive design.
+
+You may sometimes see:
+
+html
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+ `shrink-to-fit=no` is used to prevent iOS Safari from shrinking the page to fit if content overflows.
+
+
+
+ 📱 Summary Table
+
+| Attribute            | What It Does                             |
+| -- | - |
+| `width=device-width` | Sets viewport width to match screen size |
+| `initial-scale=1.0`  | Sets default zoom level to 100%          |
+
+-->

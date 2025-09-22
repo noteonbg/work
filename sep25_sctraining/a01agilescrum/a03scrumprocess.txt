@@ -1,0 +1,73 @@
+Agile development, specifically using the Scrum framework, is an iterative and incremental approach to project management, commonly used in software development. It emphasizes collaboration, flexibility, continuous improvement, and delivering value to the customer in short cycles.
+
+
+
+Key Roles in Scrum:
+
+Product Owner (PO): Represents the stakeholders and the voice of the customer. They are responsible for defining and prioritizing the Product Backlog, maximizing the value of the product.
+Scrum Master (SM): A facilitator who ensures the Scrum team adheres to Scrum principles and practices. They help remove impediments, coach the team, and foster a productive environment.
+Development Team: A self-organizing, cross-functional group of individuals who do the actual work of building the product increment. They are responsible for delivering a "Done" increment at the end of each Sprint.
+
+Scrum Artifacts:
+
+Product Backlog: A prioritized, dynamic list of all features, functionalities, requirements, enhancements, and bug fixes that might be needed for the product. It's continually refined by the Product Owner.
+Sprint Backlog: A subset of the Product Backlog selected by the Development Team for a specific Sprint. It includes the items the team commits to completing during that Sprint.
+Increment: The sum of all Product Backlog items completed during a Sprint and the value of increments of all previous Sprints. It must be "Done" and potentially shippable.
+
+The Scrum Process (Events/Ceremonies):
+
+1.  Product Backlog Creation/Refinement (Ongoing):
+    The Product Owner works with stakeholders to understand the vision for the product and gathers initial requirements, often in the form of "user stories" (e.g., "As a [user role], I want to [product capability] so that [user benefit]").
+    These are compiled into the Product Backlog.
+    This is an ongoing process of adding detail, estimates, and order to the items in the Product Backlog. The Product Owner continuously prioritizes items based on business value, risk, and dependencies.
+
+2.  Sprint Planning:
+    At the beginning of each Sprint (a fixed time-box, usually 1-4 weeks), the entire Scrum Team (Product Owner, Scrum Master, and Development Team) collaborates to plan the upcoming Sprint.
+    They discuss the highest-priority items from the Product Backlog.
+    The Development Team selects the items they believe they can realistically complete within the Sprint, creating the Sprint Backlog.
+    A Sprint Goal is defined, which is a short, overarching objective for the Sprint.
+
+3.  Daily Scrum (Daily Stand-up):
+    A short, time-boxed (15-minute) meeting held every day during the Sprint.
+    The Development Team members answer three questions:
+        What did I do yesterday that helped the Development Team meet the Sprint Goal?
+        What will I do today to help the Development Team meet the Sprint Goal?
+        Do I see any impediments that prevent me or the Development Team from meeting the Sprint Goal?
+    This meeting fosters transparency, identifies impediments, and helps the team self-organize and adjust their plan for the day.
+
+4.  Development Work (During the Sprint):
+    The Development Team works on the items in the Sprint Backlog.
+    They design, code, test, and integrate the work to create a "Done" product increment.
+    The Scrum Master helps remove any obstacles or impediments the team encounters.
+
+5.  Sprint Review:
+    Held at the end of each Sprint.
+    The Scrum Team demonstrates the "Done" Increment to stakeholders (including the Product Owner, customers, and other interested parties).
+    The team discusses what was accomplished in the Sprint, what went well, and what challenges arose.
+    Stakeholders provide feedback, and the Product Backlog is updated based on this feedback and market changes.
+
+6.  Sprint Retrospective:
+    Held after the Sprint Review and before the next Sprint Planning.
+    The Scrum Team inspects itself and creates a plan for improvements to be enacted during the next Sprint.
+    They discuss:
+        What went well in the Sprint?
+        What could be improved?
+        What commitments can we make to improve in the next Sprint?
+    This fosters continuous improvement in the team's processes and working environment.
+
+7.  Release (Optional, but usually after several Sprints):
+    Once a sufficient amount of valuable functionality has been built across multiple Sprints, the Product Owner decides when to release the product or a new version of it to users or customers.
+    This doesn't necessarily happen after every Sprint, but the goal of Scrum is to produce potentially shippable increments regularly.
+
+8.  Maintenance/Retirement (Long-term):
+    After release, the product enters a maintenance phase where the team continues to provide support, fix bugs, and potentially add new features through subsequent Sprints.
+    Eventually, a product might reach a retirement phase if it's replaced by new software or becomes obsolete.
+
+Key Principles of Scrum:
+
+Empiricism: Scrum is based on transparency, inspection, and adaptation. Decisions are made based on observation and experience.
+Self-organization: Development Teams are empowered to decide how to best accomplish their work.
+Cross-functionality: The Development Team has all the skills necessary to turn Product Backlog items into a "Done" Increment.
+Time-boxing: All Scrum events have a maximum duration to maintain focus and efficiency.
+Continuous Improvement: Through retrospectives and regular feedback, the team constantly seeks to improve its processes and product.
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharma Inventory with CSS Combinators</title>
+  <style>
+    /* 1. Descendant Selector - applies to any <span> inside .drug */
+    .drug span {
+      color: green;
+      font-weight: bold;
+    }
+
+    /* 2. Child Selector - only immediate <p> children of .batch */
+    .batch > p {
+      color: navy;
+    }
+
+    /* 3. Adjacent Sibling Selector - styles only the first <p> immediately after an <h3> */
+    h3 + p {
+      background-color: #f9f9a0;
+      padding: 5px;
+    }
+
+    /* 4. General Sibling Selector - applies to all <p> after an <h3> in the same parent */
+    h3 ~ p {
+      border-left: 3px solid #ccc;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="drug">
+    <h2>Drug: Paracetamol</h2>
+    <div class="batch">
+      <p><span>Batch No:</span> P123456</p> <!-- child of .batch, has descendant <span> -->
+      <p><span>Expiry:</span> June 2027</p>
+    </div>
+  </div>
+
+  <div class="drug">
+    <h3>Ibuprofen 400mg</h3>
+    <p>New shipment received.</p>  <!-- Adjacent sibling (h3 + p) -->
+    <p>Manufactured: July 2025</p> <!-- General sibling (h3 ~ p) -->
+    <p>Batch: IBU2245</p>         <!-- General sibling (h3 ~ p) -->
+  </div>
+
+</body>
+</html>
