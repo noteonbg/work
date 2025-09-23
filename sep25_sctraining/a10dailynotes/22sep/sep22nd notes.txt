@@ -1,0 +1,365 @@
+we have ensure that as a batch we are ok if you dont know
+something.. culture..
+
+
+Intent first, language next..
+
+what should our intent
+to solve customer problem 
+
+history of computer science... Abstraction
+if our intent is solve customer problem, then we will prefer
+higher levels of abstraction..
+
+
+keep the presentation and logic separate..
+
+X
+file for user interaction, print, input, printf,scanf...
+file for logic .. where no print, only logic.
+architecture demands that you keep logic and presentation separate.
+quick summary.
+
+1. just be loyal to the project and as by product let us
+improve our technical skills.. (intent is very important)
+2. consequence of 1 is you have to tolerate a lot of uncertainty..
+2.1 keep your bp level normal.
+2.2 are you willing to write a small program to prove 
+your doubt on the concept or syntax is clarified.
+
+
+https://www.google.com/search?q=architecture&sca_esv=11e2c392c2a54af8&sxsrf=AE3TifMfiXWbg29HebK6xh8xzPcnBV27SQ%3A1758598059563&source=hp&ei=qxPSaM2OILCq4-EPtLrXyQ8&iflsig=AOw8s4IAAAAAaNIhu2uz_QjO4Ct0O7FlUApqBOLEwAht&ved=0ahUKEwiNkJCl-O2PAxUw1TgGHTTdNfkQ4dUDCBo&uact=5&oq=architecture&gs_lp=Egdnd3Mtd2l6IgxhcmNoaXRlY3R1cmUyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCxAuGIAEGMcBGK8BMggQABiABBixAzILEC4YgAQYxwEYrwEyBRAAGIAESKoMUL8BWI0LcAF4AJABAJgB3gGgAboPqgEFMC45LjO4AQPIAQD4AQGYAg2gAvwQqAIKwgIHECMYJxjqAsICChAjGIAEGCcYigXCAgQQIxgnwgILEAAYgAQYkQIYigXCAhEQLhiABBixAxjRAxiDARjHAcICDhAAGIAEGLEDGIMBGIoFwgIREC4YgAQYsQMYgwEY1AIYigXCAhAQIxjwBRiABBgnGMkCGIoFwgILEC4YgAQYsQMYgwHCAg4QLhiABBjHARiYBRivAcICDhAuGIAEGLEDGMcBGK8BwgIIEC4YgAQYsQPCAg4QABiABBiRAhixAxiKBcICDRAAGIAEGLEDGBQYhwLCAhAQABiABBiRAhiKBRhGGPkBwgILEAAYgAQYsQMYigXCAgsQABiABBiSAxiKBcICCBAAGIAEGMkDmAMi8QX4Sj_PUjVfa5IHBTEuOS4zoAeVebIHBTAuOS4zuAfZEMIHBzItMi45LjLIB6wB&sclient=gws-wiz
+
+id 
+name  -- relevant most of times for  request processing component
+it will use it..
+
+semantic web... use tags in the html page which correspond
+to what they actually do in the page..
+
+example header, section, main, article, nav...
+
+
+you can use all the tags in html, but boss in layout making
+is css... until you use css dont expect any kind of decent
+layouts..
+
+
+1. in page 30, assignment is given... you complete this assingment
+2. setup git software by reading things from confluence
+3. page 9 pdf build the html page using semantic tags dont
+use any css.
+
+what should be of real interest to us... as a technical person.
+
+1. focused on project.. respect architecture... you will
+know what will be folder structure , what will be files..
+2. we will drowned in "FREE OPINION  == Frame works" ... so learn to
+generalize your learning so that you can remember less.
+
+
+
+standard English scrap spoken in IT. Things are changing
+so fastwe must update.. all this is scrap.
+ask what does not change in IT. learn that...
+so learn things which will not change...
+
+first thing to recognize somebody does not know science
+is he will tell there are lot of things to learn..
+
+let us all become 4th std kid who is comfortable with 6 subjects
+and not act I am specialist I like only one subject, this is scrap
+
+4 std kid with 6 subjects
+1. software engineering (1/5)
+2. web client.. html, javascript, css.  (3/5)
+3. java withspring boot. (3/5)
+4. unit testing, devops chain. (2/5)
+5. cloud(1/5)
+6. ai.(1/5)
+
+all of us have an idea regarding html.. 
+
+second tough journey called CSS.
+it is a vast subject and we are just looking an overview..
+
+kids favourite.. expanding abbrevations..
+expand CSS   Cascading style sheets.
+what is CSS?
+
+it is used to style web page.
+
+what is most important thing to design...
+is to accept a tradeoff.
+
+as  technical person our job is to use technology
+and not become a sales person for any technology.
+
+way to learn technology.
+
+1. concept.
+2. example
+3. hello world syntax.
+4. your own program should be 3 and other people program should
+be 7...
+3:7 that is way to prove we understand some x...
+
+
+before semantic tag came .. we used to use div tags for almost
+layout of the page..... in todays world you should consider
+using semantic tag..
+inyour project 100% consider using semantic tags dont use div.
+
+shortcuts dont work in css....so ensure assignment is completed
+first ... and then take your time to learn css systematically
+if the need is there in your project...
+
+unnecessary accumulation of information fastest way to reach
+the asylum. how to do layouts... 
+
+
+some terminologies
+what is css.
+what kind of syntax it has got
+where it can be written.
+what is box model in css.
+
+Display property in CSS. until we learn this, we can
+never say we know layout in css.
+
+display property important I will try to revist on coming
+or Friday or coming Monday...
+
+
+
+
+System... in any system equal effort does not work..
+effort needs unequal only
+
+
+in something we spend more time
+in something we spend less time.
+
+you have two paragrahs called hello and hi.
+while printing hi should not appear in the printout..
+
+
+what to do.
+
+1. look at the css programs from github..
+a03css folder sample programs, try to go thru it.
+reference.. go thru some of programs and see are you able to understand the syntax.
+2. complete the 9th page of pdf.
+2.1 you must have only html page without any css... semantic tags.
+2.2 menubar part alone try to complete it as a separate program.
+2.3 cards make it as separate program.
+2.4 integrated one program.
+this approach will give you better exposure to css and enjoy
+the uncertainty you encounter..
+
+not knowing what we copied, is a sin.... so understand
+if you did any copy paste.... .
+
+1. x.html ( only only html with semantic tags used)
+2. head.html and head.css (header part)
+3. body.html and body.css (body part)
+4. all.html .. actual assignment ( head.html and body.html)
+so that you get some time to understand css.( copy head.html
+and body.html into this html ... )
+
+
+
+quick summary
+1. html, whether we are in good mood or bad mood does not
+matter we should be conscious which part will change.
+this things we will see we will using javascript to make
+the changes..
+2. depending on how the page will look, layout changes
+are needed, layout changes, typically means we should
+know css property called display property...
+
+Bootstrap... X what is it.
+
+1. it is a css library...
+2. is it the only one, no, there are other libraries also
+available.
+
+SASS is css+some benefits...
+
+who is boss for web based presentations?
+
+whenever you make any web based presenation you
+have to satisfy this software called  Browser
+you tell I will give X, Y,Z, A,B,C ok tell me does
+the browser understand you.. if No, figure out ways to
+communicate in a way the browser understands..
+
+Browser tells I  like   HTML,CSS  and Javascript..
+
+being good at css is not a bad thing if your job 
+web based presentation.. then being good css is a must..
+it needs to be learnt systematically.
+
+
+any technology company wants to tell they are doing the 
+greatest thing.... but as a technical person  or more as a science person rule no 1 is not to trust but check.... whether that is correct..
+
+
+what is Bootstrap. CSS library...
+what is BootStrap it is a product..so what will products do
+act as though you cant live without them... "addiction"
+
+what will a typical CSS library give us..
+
+1. css library will give lot of css classes..
+
+
+
+
+how do i recognize a bootstrap program.
+it will use files given by bootstrap
+in the html we will use classes given by bootstrap.
+
+
+we see the link for bootstrap related css files..
+ok... but then show you are using bootstrap related classes
+in your code..
+
+all products will have "opinions" and they will tell
+this is a fact... but you should know it is an opinion only..
+
+
+what is CSS, what is bootstrap , what is tailwind.
+CSS is a superset.. it is a standard...
+bootstrap is one css library  -- opinion
+tailwind is another css library...opinion..
+
+is css good or bootstrap good? bad question.
+
+should i use tailwind or should i use bootstrap, good to consider.
+
+
+1 to 1.5/5 .. do ugly websites... focus on overall project.
+
+
+
+when youir project starts..
+start using bootstrap...
+to use bootstrap.. you must know bootstrap opinion...
+what is bootstrap opoinion..
+bootstrap dont look only for bootstrap related css file
+and bootstrap related js file.. no no no.. along with this
+you must see are you using bootstrap related classes with
+your html... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+what you should understand.
+
+1. boot strap is a css library... what does it mean
+it will give you lot of css classes and it has an opinion
+how to do layouts... if we are using bootstrap.. we should
+learn this opinion...
+
+
+most brutal and ferocious force any company can face 
+is "business "
+
+
+once upon a time in internet in the browser if you had
+play audio or video.. you needed something called "Real player
+then what happened... browsers by default had players to play
+video and audio so nobody needs real player.
+
+
+once upon a time to read pdf you needed Acrobat reader...
+
+
+in 2015 onwards.... css standard itself starting getting
+this feature called flex, grid.... in layouts.. so for layouts
+do you want to use bootstrap or yu want to use css only is
+a call you should take..
+
+in your project... for layouts do you want to use bootstrap
+or do you want to use css flex or grid ... is a choice
+left to you... if you ask my opinion... layouts you control
+it by using css properties like flex or grid and dont use
+bootstrap... for dialogs.. etc.. use bootstrap..
+
+NO I will use bootstrap everywhere.. ok that also is a opinion
+you can consider..
+
+you have to decide and half way not shift from one to other
+in the project..
+
+
+now you understand the word "opinion"
+
+
+
+
+
+
+using boot strap means.
+
+1. knowing its opinion first.. 12 column.
+2. know what classes do.
+3. then use it in our html.
+4. best approach dont write your own first.. understand
+existing programs and then try..
+
+if time permits try writng a page which uses only css
+and then try bootstrap to see what differences you see..
+
+
+1. opinion... 12 column layout
+2. usage of bootstrap related classes.
+
+
+
+in the pdf there are three assingments..
+
+1. form validation assingmnet. pg 39
+2. home page.. html and css no javascript
+3. last page... html and bootstrap.. no javascript.
+
+all the assingments will test how much you can tolerate
+uncertainty and learn on need basis.
+
+
+
+
+29th September 2025.
+
+
+obviously the way we covered is so shallow in css. that is design
+also of this course..
+
+
+1.check whether bootstrap works in youir system how...
+2. check git  --version.
+3.  continue with your page 9 assignment... home page of sc..
+4. remember there is a bootstrap assignment.. how to approach
+it tomorrow..
+Thank you we will catch up tomorrow.
+
+
+
+
+
+
+
+
+
+
+
