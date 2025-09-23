@@ -1,0 +1,146 @@
+Basic Git Configuration
+
+These are typically set globally (once per machine or user account):
+
+# Set your name
+git config --global user.name "John Doe"
+
+# Set your email (must match email on GitHub/GitLab for commits to be linked)
+git config --global user.email "xyz@example.com"
+
+# Set default editor (e.g., VS Code)
+git config --global core.editor "code --wait"
+
+# Set default branch name (instead of 'master', use 'main')
+git config --global init.defaultBranch main
+```
+
+# Enable color in Git output
+git config --global color.ui auto
+
+# Show nicer log output
+git config --global format.pretty oneline
+
+# Enable credential caching (saves credentials for 15 minutes by default)
+git config --global credential.helper cache
+
+# Alternatively, use credential store for long-term saving (plaintext)
+git config --global credential.helper store
+
+# Set merge tool (e.g., use VS Code)
+git config --global merge.tool vscode
+
+
+# Shorter git status
+git config --global alias.st status
+
+# Shorter git commit -m
+git config --global alias.cm "commit -m"
+
+# Show log with graph
+git config --global alias.lg "log --oneline --graph --all --decorate"
+
+
+
+In your project directory:
+
+* `.gitignore`: Tells Git which files/folders to ignore.
+
+  
+  node_modules/
+  .env
+  *.log
+  ```
+
+.gitattributes`: Controls how Git handles certain file types.
+  *.sh text eol=lf
+  *.jpg binary
+  
+# Create a global gitignore file
+echo ".DS_Store" >> ~/.gitignore_global
+echo "node_modules" >> ~/.gitignore_global
+
+# Tell Git to use it
+git config --global core.excludesFile ~/.gitignore_global
+
+# Show all global configurations
+git config --global --list
+
+# Show system, global, and local settings
+git config --list --show-origin
+--------------------------------------------------------------
+
+step 2
+
+system level settings
+# Run with admin/sudo privileges
+sudo git config --system user.email "system@example.com"
+sudo git config --system core.editor "vim"
+
+user level settings
+git config --global user.email "global@example.com"
+git config --global core.editor "nano"
+
+project level settings
+# Go to your project directory
+cd /path/to/my-project
+
+# Set repo-specific email and editor
+git config --local user.email "project@example.com"
+git config --local core.editor "code --wait"
+
+
+
+
+git config --list --show-origin
+bat file or linux file contents do it accordingly
+@echo off
+SETLOCAL
+
+REM === Set variables ===
+SET REPO_DIR=/f/a01aXessacademy/rg/a06gitadventures/temp/poc_project
+REM === System-level config (requires admin command prompt) ===
+echo Setting system-level Git config...
+git config --system user.email "system@example.com"
+git config --system core.editor "notepad"
+
+REM === Global (user-level) config ===
+echo Setting global Git config...
+git config --global user.email "global@example.com"
+git config --global core.editor "notepad++"
+
+REM === Local (project-level) config ===
+echo Setting local Git config in %REPO_DIR%...
+cd /d "%REPO_DIR%"
+git config --local user.email "project@example.com"
+git config --local core.editor "code --wait"
+
+echo Git configuration completed successfully.
+
+ENDLOCAL
+pause
+
+------------------------------
+
+commands to see...
+
+System-level settings
+git config --system --list
+
+User level settings
+git config --global --list
+
+Project specific repository level, 
+settings
+first be inside the repository folder...
+git config --local --list
+
+View all settings and where they come from
+git config --list --show-origin
+
+------
+
+
+
+
+

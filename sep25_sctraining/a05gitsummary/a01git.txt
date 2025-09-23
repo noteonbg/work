@@ -1,0 +1,83 @@
+
+in your company
+
+
+git -c http.sslverify=false
+
+
+step1
+
+
+
+1. you got a repository.. and you are going to clone it.
+git clone https://github.com/noteonbg/pocrepo.git
+
+created a branch
+2. git checkout -b pocbranch
+
+created a file
+3. echo hi >> branch.txt
+
+added files
+4. git add .
+
+commited messages.
+5. git commit -m "file has been renamed"
+
+pushed the branch to the repository
+6. git push -u origin pocbranch
+
+imagine data in the repository has changed..
+7. come to the branch...
+git checkout localbranchname.
+git pull origin pocbranch // you will get data from the remote repository
+//updated in the branch.
+
+8. then usual stuff, add, commit and push...
+
+9. git diff pocbranch origin/pocbranch
+
+10. to merge data between branches..
+git fetch origin
+git diff main origin/main   # See what's changed on remote
+git merge origin/remotebranch
+merge remotebranch with the currentlocal branch.
+  
+11. to delete a branch
+git branch -d branch-name 
+
+----------------------------------
+
+To see merge conflict...
+1. change the file local repository and add , commit.
+2. change the file in remote repository , add and commit
+now try to push from local to remote... it wont work.
+you have update local with remote data..
+by doing a 
+git pull origin branchname.
+resolve the conflict.... and get things done.
+push the data 
+git push -u origin pocbranch
+
+-------------------------------------------
+
+
+
+
+
+echo "# pocrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/noteonbg/pocrepo.git
+git push -u origin main
+
+
+git remote add origin https://github.com/noteonbg/pocrepo.git
+git branch -M main  ( rename the branch enforce the rule .. find out more..)
+git push -u origin main
+
+
+
+

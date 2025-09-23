@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Car Info Card - Bootstrap 5</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body >
+
+  <div >
+    <div>
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/car-1866731_1280.jpg" class="card-img-top rounded" alt="Car Image" />
+      <div >
+        <h5 >Toyota Camry 2023</h5>
+        <p >
+          Elegant and reliable sedan with excellent fuel efficiency and advanced safety features.
+        </p>
+        <a href="#" class="btn btn-primary">Book a Test Drive</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--
+
+| Original CSS/HTML                           | Bootstrap  Equivalent/Replacement                                        | Notes                                                                                       |
+| ------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `.card` with border-radius, shadow, padding | `<div class="card" style="max-width:400px;">` + Bootstrap's built-in card | Bootstrap's `.card` class handles styling and shadow out-of-the-box                         |
+| Custom image styles                         | `<img class="card-img-top rounded">`                                      | Bootstrap provides `.card-img-top` for images inside cards and `.rounded` for border-radius |
+| `<h2>` heading                              | `<h5 class="card-title">`                                                 | Bootstrap card title styling                                                                |
+| Paragraph with custom color                 | `<p class="card-text text-secondary">`                                    | `.text-secondary` applies muted color                                                       |
+| Custom button `.btn-primary`                | `<a class="btn btn-primary">`                                             | Bootstrap button styling and hover effects                                                  |
+| Container with custom padding               | `<div class="container p-4 bg-light d-flex justify-content-center">`      | Bootstrap utility classes for spacing, background, and flex alignment                       |
+
+
+
+-->

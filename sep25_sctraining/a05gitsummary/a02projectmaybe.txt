@@ -1,0 +1,158 @@
+Preferred
+
+Name branches clearly: feature/login-page, bugfix/navbar-crash
+Keep branches short-lived to avoid conflicts
+Pull from main/develop frequently to stay up to date
+Use Pull Requests for code review and discussion
+Avoid committing directly to main or master
+
+typical process
+Dev clones repo
+
+Creates a branch: feature/user-auth
+Works locally, commits changes
+Pushes to GitHub
+Opens PR to merge into develop
+Team reviews → PR merged
+CI runs tests → builds merged code
+Code gets released from main after QA approval
+
+
+
+1. in the repository, 
+create branches  develop, features, poc, hotfix, release.
+
+2. clone the repository..
+git clone https://github.com/noteonbg/projectpoc.git
+
+3. come to the repository folder.
+git branch -a
+look at all  the branches..
+
+4. create a new branch from featurebranch.
+let us login-feature
+git checkout feature
+git checkout -b loginfeature .
+
+5. add the files and commmit it..
+
+6. push the branch to the remote repository.
+git push -u origin feature/login-page
+
+7. now in repo manage the pull request
+and be conscious your branch is going to merged
+with which branch.
+
+8. get the latest branch from the remote repository.
+git pull origin featurebranch or existing branch
+based on what has been said..
+
+9. delete your old branch.
+git branch -d loginfeature.
+
+deleting remote branch pathetic..
+git push origin --delete branch-name
+
+
+update your branch  , to ensure your branchis in synch with what is on the repo.
+git pull origin branchname.
+
+
+
+
+----------------------------------
+
+to get the lastest changes from the remote repo.
+git fetch origin  // remember fetch will not update your local branches..
+
+come to your branch
+git checkout branchname.
+
+create a branch and check out.
+git checkout -b feature/login-page
+
+
+if you want merge changes.
+git merge  origin/branchname..
+current branch is merged with remote branch data.
+
+-------------------------------------------
+branching entire repo and all branches
+
+git clone https://github.com/username/repo.git
+cd repo
+git checkout branch1
+
+cloning only one branch.
+git clone --branch branch1 --single-branch https://github.com/username/repo.git
+
+---------------------------------------------------
+
+git branch -a
+shows all local branches and remote branches..
+
+-------------------------------------
+
+git status , shows you which branch you are in..
+
+----------------------------------------
+
+Merging Remote branch into Local branch
+git checkout your-local-branch
+git fetch origin // getting the latest..
+git merge origin/branchnameinremote.
+remember remotebranch is merged with the current branch.
+
+
+git checkout my-local-branch
+git fetch origin
+git merge origin/feature/login-page
+
+-------------------------------------------
+
+To find difference between different branches.
+git fetch origin
+git diff localbranchname origin/remotebranchname   # See what's changed on remote
+git merge origin/remotebranchname.
+merge remote branch with current branch.
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in case of any changes in the remote repository, pull
+the changes from the remote repository. right now
+that is low possiblity becuase it is a new branch
+git pull origin loginfeature
+
+
+
+

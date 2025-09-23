@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horizontal Form Example</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-light p-4">
+
+  <div class="container">
+    <h2 class="mb-4">🛠️ Car Service Appointment</h2>
+
+    <!-- Horizontal Form -->
+    <form>
+      <!-- Name -->
+      <div class="row mb-3">
+        <label for="name" class="col-sm-3 col-form-label">Full Name</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="row mb-3">
+        <label for="email" class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="email" placeholder="email@example.com" required>
+        </div>
+      </div>
+
+      <!-- Vehicle Model -->
+      <div class="row mb-3">
+        <label for="vehicle" class="col-sm-3 col-form-label">Vehicle Model</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="vehicle" placeholder="e.g. Toyota Corolla" required>
+        </div>
+      </div>
+
+      <!-- Service Date -->
+      <div class="row mb-3">
+        <label for="date" class="col-sm-3 col-form-label">Preferred Date</label>
+        <div class="col-sm-9">
+          <input type="date" class="form-control" id="date" required>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-9">
+          <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--
+
+Element	Bootstrap Class Used	Purpose
+row mb-3	Wraps each form group	Creates horizontal layout with spacing
+col-sm-3 (label)	Fixed width for label	Aligns label to the left
+col-sm-9 (input)	Wider input field	Makes form readable and balanced
+offset-sm-3	Aligns button with input fields	Keeps layout consistent
+
+
+Bootstrap 3: Used .form-horizontal to create horizontal forms.
+Bootstrap 4/5: Use grid classes (row, col-*, .col-form-label) instead, no .form-horizontal class.
+
+-->

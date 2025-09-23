@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book a Test Drive</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-light p-4">
+  <div class="container">
+    <h2 class="mb-4">🚗 Book a Test Drive</h2>
+
+    <form>
+      <!-- Full Name -->
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="example@domain.com" required>
+      </div>
+
+      <!-- Phone -->
+      <div class="mb-3 form-group">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="+1 234 567 8900" required>
+      </div>
+
+      <!-- Select Car Model -->
+      <div class="mb-3">
+        <label for="carModel" class="form-label">Select Car Model</label>
+        <select class="form-select" id="carModel" required>
+          <option selected disabled value="">Choose a model...</option>
+          <option>Tesla Model 3</option>
+          <option>BMW X5</option>
+          <option>Honda Civic</option>
+          <option>Ford Mustang</option>
+        </select>
+      </div>
+
+      <!-- Preferred Date -->
+      <div class="mb-3">
+        <label for="date" class="form-label">Preferred Date</label>
+        <input type="date" class="form-control" id="date" required>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary">Submit Request</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--
+
+Feature	Bootstrap Element Used	Purpose
+Vertical Layout	One field per line (mb-3)	Easy to scan and fill on mobile
+Form Validation	required attribute	Ensures essential fields are completed
+Dropdown	select.form-select	Lets user choose from car models
+Date Picker	input[type="date"]	Lets user pick a preferred test drive date
+Responsive Design	Bootstrap grid & inputs	Works well on both mobile and desktop
+
+-->
+
+

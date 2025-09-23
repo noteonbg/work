@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SteelCraft Industries</title>
+
+  <!-- Load Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- Navbar: Dark background, expands on large screens, collapses on mobile -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- .container centers content and adds horizontal padding -->
+    <div class="container">
+      <!-- .navbar-brand styles the brand/logo -->
+      <a class="navbar-brand" href="#">SteelCraft</a>
+
+      <!-- Toggler button for collapsing navbar on small screens -->
+      <button
+        class="navbar-toggler" 
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navContent"
+      >  <!-- Hamburger icon for mobile -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible menu section -->
+      <div class="collapse navbar-collapse" id="navContent">
+        <!-- .ms-auto pushes nav links to the right -->
+        <ul class="navbar-nav ms-auto">
+          <!-- .nav-item and .nav-link are used for navigation styling -->
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#machinery">Machinery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section: Full-width, centered text, with padding and background color -->
+  <header class="bg-primary text-white text-center py-5">
+    <!-- bg-primary: blue background, text-white: white text, text-center: centered text, py-5: vertical padding -->
+    <div class="container">
+      <h1>Welcome to SteelCraft Industries</h1>
+      <!-- .lead makes the paragraph slightly larger and lighter -->
+      <p class="lead">Precision. Power. Performance.</p>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <!-- py-5: top and bottom padding -->
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <!-- text-center: center text, mb-4: margin-bottom -->
+
+      <div class="row g-4">
+        <!-- .row: Bootstrap grid row; .g-4: gap between columns -->
+        
+        <!-- Each service in a 4-column layout on medium+ screens -->
+        <div class="col-md-4">
+          <!-- .col-md-4: 1/3 width on md+ screens, full width on small -->
+          <div class="card h-100 shadow">
+            <!-- .card: Bootstrap card component -->
+            <!-- h-100: make all cards same height; .shadow: adds drop shadow -->
+            <div class="card-body">
+              <h5 class="card-title">Metal Fabrication</h5>
+              <p class="card-text">
+                High-precision steel, aluminum, and alloy fabrication for industrial use.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">CNC Machining</h5>
+              <p class="card-text">
+                State-of-the-art CNC tools delivering micro-tolerance components.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Welding & Assembly</h5>
+              <p class="card-text">
+                Certified welding and assembly for industrial and custom parts.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Machinery Gallery -->
+  <section id="machinery" class="py-5 bg-light">
+    <!-- bg-light: light gray background -->
+    <div class="container">
+      <h2 class="text-center mb-4">Our Machinery</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <!-- img-fluid: responsive image, .rounded: rounded corners, .shadow: drop shadow -->
+          <img
+            src="https://via.placeholder.com/350x200?text=Laser+Cutter"
+            class="img-fluid rounded shadow"
+            alt="Laser Cutter"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://via.placeholder.com/350x200?text=CNC+Lathe"
+            class="img-fluid rounded shadow"
+            alt="CNC Lathe"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://via.placeholder.com/350x200?text=Press+Brake"
+            class="img-fluid rounded shadow"
+            alt="Press Brake"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Get in Touch</h2>
+
+      <form>
+        <div class="row g-3">
+          <!-- g-3: vertical/horizontal gap between fields -->
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              required
+            />
+            <!-- form-control: full-width styled input -->
+          </div>
+          <div class="col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <!-- px-5: horizontal padding on button -->
+            <button type="submit" class="btn btn-primary px-5">Send Message</button>
+            <!-- btn: base button, btn-primary: Bootstrap blue style -->
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <!-- bg-dark: dark background, text-white: white text, text-center: center text -->
+    <p class="mb-0">&copy; 2025 SteelCraft Industries. All rights reserved.</p>
+    <!-- mb-0: removes bottom margin from paragraph -->
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper (for navbar and interactions) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!--
+
+Section	Purpose
+Navbar	Navigation menu using Bootstrap classes
+Hero	Welcoming headline with company branding
+Services	A 3-column layout showing manufacturing services
+Gallery	Placeholder images showcasing machines
+Contact	Responsive contact form with Bootstrap form controls
+Footer	Simple, professional footer section
+
+
+
+
+
+ container, row, col for responsive layout
+
+ navbar, collapse, navbar-toggler for responsive menus
+
+bg-*, text-*, py-*, mb-* for utility-based styling
+
+card, form-control, btn for common components
+
+shadow, rounded, img-fluid for appearance and responsivenes
+
+
+-->
