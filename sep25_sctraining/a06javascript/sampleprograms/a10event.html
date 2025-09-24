@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Event Handling with onclick</title>
+</head>
+<body>
+
+  <input type="text" id="myInput" placeholder="Type something here" />
+  <button onclick="showText()">Show Text</button>
+  <!-- in the above line we are calling showText function, this is wrong-->
+   <!--  we are assining the function showText to the event onClick .. we are telling
+     the system hey one day when you detect the click event on the button, please
+     let me know by calling the function showText -->
+
+
+  <script>
+    function showText() {
+      const text = document.getElementById("myInput").value;
+      alert("You typed: " + text);
+    }
+  </script>
+
+</body>
+</html>

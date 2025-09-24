@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Functions Demo</title>
+</head>
+<body>
+
+<script>
+  // 1. Named function declaration
+
+  
+  
+  function greet(name) {
+    console.log("Hello, " + name + "! This is a named function.");
+  }
+
+  // Calling named function
+  greet("Grace");
+
+  console.log("------------------");
+
+
+
+  // this is needed...
+  let sayGoodbye = function(name) {
+    console.log("Goodbye, " + name + "! This is an anonymous function stored in a variable.");
+  };
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+//we are defining and assinging a function. but 100% we are not calling the function.
+
+ // Calling the anonymous function via variable
+  sayGoodbye("Ramesh");
+
+  
+
+  console.log("------------------");
+
+  // 3. Immediately Invoked Function Expression (IIFE)
+  (function() {
+    console.log("This is an IIFE - anonymous function called immediately!");
+  })();
+
+  console.log("------------------");
+
+  // 4. Anonymous arrow function stored in a variable
+  let multiply = (a, b) => {
+    return a * b;
+  };
+
+  // Calling arrow function
+  let result = multiply(5, 7);
+  console.log("5 multiplied by 7 =", result);
+</script>
+
+</body>
+</html>

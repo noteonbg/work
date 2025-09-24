@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Data Types Console Demo</title>
+</head>
+<body>
+
+<script>
+  let undefinedVar;
+  let nullVar = null;
+  let numberVar = 123;
+  let stringVar = "Automobile";
+  let booleanVar = false;
+  let arrayVar = [10, "car", true];
+  let objectVar = { brand: "Tesla", model: "Model S", year: 2025 };
+
+  console.log("Undefined variable:");
+  console.log("  Type =", typeof undefinedVar);
+  console.log("  Value =", undefinedVar);
+  console.log("-------------------------");
+
+  console.log("Null variable:");
+  // typeof null is "object" in JS, so show "null" manually for clarity
+  console.log("  Type =", nullVar === null ? "null" : typeof nullVar);
+  console.log("  Value =", nullVar);
+  console.log("-------------------------");
+
+  console.log("Number variable:");
+  console.log("  Type =", typeof numberVar);
+  console.log("  Value =", numberVar);
+  console.log("-------------------------");
+
+  console.log("String variable:");
+  console.log("  Type =", typeof stringVar);
+  console.log("  Value =", stringVar);
+  console.log("-------------------------");
+
+  console.log("Boolean variable:");
+  console.log("  Type =", typeof booleanVar);
+  console.log("  Value =", booleanVar);
+  console.log("-------------------------");
+
+  console.log("Array variable:");
+  console.log("  Type =", typeof arrayVar);
+  console.log("  Value =", arrayVar);
+  console.log("-------------------------");
+
+  console.log("Object variable:");
+  console.log("  Type =", typeof objectVar);
+  console.log("  Value =", objectVar);
+  console.log("-------------------------");
+</script>
+
+</body>
+</html>

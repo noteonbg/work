@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Class Example</title>
+</head>
+<body>
+
+  <script>
+    // Define a Car class
+    class Car {
+      // Constructor method to initialize properties
+      constructor(brand, year) {
+        this.brand = brand;
+        this.year = year;
+      }
+
+      // Method to display info about the car
+      displayInfo() {
+        console.log(`Car: ${this.brand}, Year: ${this.year}`);
+      }
+
+      // Method to check if the car is vintage (older than 20 years)
+      isVintage(currentYear) {
+        return currentYear - this.year > 20;
+      }
+    }
+
+    // Create instances (objects) of the Car class
+    const car1 = new Car("Toyota", 2010);
+    const car2 = new Car("Ford", 1995);
+
+    // Call methods
+    car1.displayInfo();  // Output: Car: Toyota, Year: 2010
+    car2.displayInfo();  // Output: Car: Ford, Year: 1995
+
+    console.log("Is car1 vintage?", car1.isVintage(2025));  // false
+    console.log("Is car2 vintage?", car2.isVintage(2025));  // true
+  </script>
+
+</body>
+</html>

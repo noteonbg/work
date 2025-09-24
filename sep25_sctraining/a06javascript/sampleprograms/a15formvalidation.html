@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Form Validation Example</title>
+  <style>
+    .error { color: red; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form id="myForm" onsubmit="return validateForm()">
+    <label>Name:</label><br>
+    <input type="text" id="name" /><br>
+    <span id="nameError" class="error"></span><br>
+
+    <label>Email:</label><br>
+    <input type="text" id="email" /><br>
+    <span id="emailError" class="error"></span><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password" /><br>
+    <span id="passwordError" class="error"></span><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      // Clear previous errors
+      document.getElementById("nameError").textContent = "";
+      document.getElementById("emailError").textContent = "";
+      document.getElementById("passwordError").textContent = "";
+
+      let name = document.getElementById("name").value.trim();
+      let email = document.getElementById("email").value.trim();
+      let password = document.getElementById("password").value;
+
+      let valid = true;
+
+      // Validate name
+      if (name === "") {
+        document.getElementById("nameError").textContent = "Name is required.";
+        valid = false;
+      }
+
+      // Validate email
+      let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        document.getElementById("emailError").textContent = "Invalid email address.";
+        valid = false;
+      }
+
+      // Validate password
+      if (password.length < 6) {
+        document.getElementById("passwordError").textContent = "Password must be at least 6 characters.";
+        valid = false;
+      }
+
+      return valid; // If false, form won't submit
+    }
+  </script>
+
+</body>
+</html>

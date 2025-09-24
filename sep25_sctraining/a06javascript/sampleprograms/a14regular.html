@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Regular Expression Example</title>
+</head>
+<body>
+
+  <h3>Email Validator</h3>
+  <input type="text" id="emailInput" placeholder="Enter your email" />
+  <button onclick="validateEmail()">Validate</button>
+
+  <h3>Search & Replace Example</h3>
+  <p id="text">The car is fast. The car is red.</p>
+  <button onclick="replaceWord()">Replace 'car' with 'bike'</button>
+
+  <script>
+    // Function to validate email using RegEx
+    function validateEmail() {
+      const email = document.getElementById("emailInput").value;
+
+      // Basic email RegEx
+      const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$/i;
+
+      if (regex.test(email)) {
+        alert("Valid email!");
+      } else {
+        alert("Invalid email!");
+      }
+    }
+
+    // Function to replace a word using RegEx
+    function replaceWord() {
+      const paragraph = document.getElementById("text");
+      const originalText = paragraph.textContent;
+
+      // Global (g) flag replaces all matches
+      const newText = originalText.replace(/car/g, "bike");
+
+      paragraph.textContent = newText;
+    }
+  </script>
+
+</body>
+</html>
+
+
+<!--
+
+RegEx Feature	Example	Purpose
+/pattern/	/car/	Basic pattern
+.test(string)	regex.test(email)	Checks if string matches pattern
+.replace(/pattern/g)	.replace(/car/g, "bike")	Replaces all matches (global)
+^ and $	^abc$	Anchors for start and end of string
+[a-zA-Z0-9]	Character ranges	Used for email characters
++, *, {n}	Quantifiers	Control repetition
+
+
+-->

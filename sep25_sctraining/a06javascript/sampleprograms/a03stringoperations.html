@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript String Methods Demo</title>
+</head>
+<body>
+
+<script>
+  let sample = "  Welcome to the Automobile World!  ";
+
+  console.log("Original string:");
+  console.log("'" + sample + "'");
+  console.log("-------------------------");
+
+  // 1. length - Get string length
+  console.log("1. Length of string:", sample.length);
+
+  // 2. trim() - Remove whitespace from both ends
+  console.log("2. trim():", "'" + sample.trim() + "'");
+
+  // 3. toUpperCase() - Convert to uppercase
+  console.log("3. toUpperCase():", sample.toUpperCase());
+
+  // 4. toLowerCase() - Convert to lowercase
+  console.log("4. toLowerCase():", sample.toLowerCase());
+
+  // 5. indexOf() - Find first occurrence of substring
+  console.log("5. indexOf('Auto'):", sample.indexOf("Auto"));
+
+  // 6. lastIndexOf() - Find last occurrence of substring
+  console.log("6. lastIndexOf('o'):", sample.lastIndexOf("o"));
+
+  // 7. slice() - Extract part of string
+  console.log("7. slice(3, 10):", sample.slice(3, 10));
+
+  // 8. substring() - Similar to slice but no negative indexes
+  console.log("8. substring(3, 10):", sample.substring(3, 10));
+
+  // 9. substr() - Extract substring from start index for length
+  console.log("9. substr(3, 7):", sample.substr(3, 7));
+
+  // 10. includes() - Check if substring exists
+  console.log("10. includes('World'):", sample.includes("World"));
+
+  // 11. startsWith() - Check if string starts with substring
+  console.log("11. startsWith('  Wel'):", sample.startsWith("  Wel"));
+
+  // 12. endsWith() - Check if string ends with substring
+  console.log("12. endsWith('World!  '):", sample.endsWith("World!  "));
+
+  // 13. repeat() - Repeat string n times
+  console.log("13. repeat(2):", sample.trim().repeat(2));
+
+  // 14. split() - Split string into array by separator
+  let words = sample.trim().split(" ");
+  console.log("14. split(' '):", words);
+
+  // 15. replace() - Replace first occurrence of substring
+  console.log("15. replace('Automobile', 'Car'):", sample.replace("Automobile", "Car"));
+
+  // 16. replaceAll() - Replace all occurrences (ES2021+)
+  let strWithMany = "car, car, car!";
+  console.log("16. replaceAll('car', 'bike'):", strWithMany.replaceAll("car", "bike"));
+
+  // 17. charAt() - Get character at index
+  console.log("17. charAt(5):", sample.charAt(5));
+
+  // 18. charCodeAt() - Get Unicode of character at index
+  console.log("18. charCodeAt(5):", sample.charCodeAt(5));
+
+  // 19. concat() - Concatenate strings
+  let str1 = "Electric";
+  let str2 = "Car";
+  console.log("19. concat():", str1.concat(" ", str2));
+
+  // 20. toString() - Convert to string
+  let num = 123;
+  console.log("20. num.toString():", num.toString());
+
+  // 21. localeCompare() - Compare strings
+  console.log("21. 'apple'.localeCompare('banana'):", "apple".localeCompare("banana"));
+
+</script>
+
+</body>
+</html>
+
+
+<!--
+
+Length, trimming, case conversion
+
+Search methods: indexOf, includes, startsWith, endsWith
+
+Extract parts: slice, substring, substr
+
+Replace methods (replace, replaceAll)
+
+Split string into arrays
+
+Repeat string multiple times
+
+Character access methods
+
+String concatenation and conversion
+
+Locale-based string comparison
+
+
+-->

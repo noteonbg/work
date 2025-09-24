@@ -1,0 +1,71 @@
+Sure! Here's a simple example demonstrating JavaScript scopes — covering global scope, function scope, and block scope (using `var`, `let`, and `const`):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Scopes Demo</title>
+</head>
+<body>
+
+<script>
+  // Global scope variable
+  var globalVar = "I'm global";
+
+  function testScopes() {
+    // Function scope variable (declared with var)
+    var functionVar = "I'm inside function scope";
+
+    // Block scope variables (declared with let and const)
+    if (true) {
+      let blockLet = "I'm inside block scope (let)";
+      const blockConst = "I'm inside block scope (const)";
+      var blockVar = "I'm var inside block but function scoped";
+
+      console.log(blockLet);   // accessible here
+      console.log(blockConst); // accessible here
+      console.log(blockVar);   // accessible here
+    }
+
+    // console.log(blockLet); // ERROR: blockLet is not defined outside block
+    // console.log(blockConst); // ERROR: blockConst is not defined outside block
+    console.log(blockVar); // accessible because var ignores block scope, it's function scoped
+
+    console.log(functionVar); // accessible inside function
+    console.log(globalVar);   // accessible inside function
+  }
+
+  testScopes();
+
+  console.log(globalVar); // accessible globally
+
+  // console.log(functionVar); // ERROR: functionVar not accessible outside function
+
+  // console.log(blockVar); // ERROR: blockVar not accessible outside function
+
+  // Block scope with let and const in global context
+  if (true) {
+    let globalBlockLet = "Global block let";
+    const globalBlockConst = "Global block const";
+    console.log(globalBlockLet);   // accessible here
+    console.log(globalBlockConst); // accessible here
+  }
+  // console.log(globalBlockLet); // ERROR: not accessible outside block
+  // console.log(globalBlockConst); // ERROR: not accessible outside block
+</script>
+
+</body>
+</html>
+
+
+
+
+<!--
+
+ `var` is function scoped, ignores block scope.
+ `let` and `const` are block scoped (only available inside the block `{}` they are declared in).
+ Variables declared outside any function/block are global scoped.
+ Trying to access block or function scoped variables outside their scope causes errors.
+
+Open this in a browser and check the console for output and error comments! Want me to explain hoisting or closures next?

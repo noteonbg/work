@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Array Methods Demo: unshift, push, shift, pop</title>
+</head>
+<body>
+
+<script>
+  let cars = ["Toyota", "Honda", "BMW"];
+
+  console.log("Initial array:", cars);
+
+  // push(): adds element(s) to the end
+  cars.push("Audi");
+  console.log("After push('Audi'):", cars);
+
+  // unshift(): adds element(s) to the beginning
+  cars.unshift("Mercedes");
+  console.log("After unshift('Mercedes'):", cars);
+
+  // pop(): removes the last element and returns it
+  let popped = cars.pop();
+  console.log("After pop():", cars);
+  console.log("Popped element:", popped);
+
+  // shift(): removes the first element and returns it
+  let shifted = cars.shift();
+  console.log("After shift():", cars);
+  console.log("Shifted element:", shifted);
+</script>
+
+</body>
+</html>

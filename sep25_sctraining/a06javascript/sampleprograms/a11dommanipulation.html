@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DOM Selection Methods Demo</title>
+  <style>
+    .car { color: blue; }
+  </style>
+</head>
+<body>
+
+  <h1 id="title">Automobile Brands</h1>
+
+  <p class="car">Toyota</p>
+  <p class="car">Honda</p>
+  <p class="car">BMW</p>
+
+  <div>
+    <p>Some other paragraph</p>
+  </div>
+
+  <script>
+    // 1. getElementById: Select element by ID (single element)
+    const title = document.getElementById("title");
+    console.log("getElementById:", title.textContent);
+
+    // 2. getElementsByTagName: Select elements by tag name (HTMLCollection)
+    const paragraphs = document.getElementsByTagName("p");
+    console.log("getElementsByTagName (all <p>):");
+    for (let p of paragraphs) {
+      console.log("-", p.textContent);
+    }
+
+    // 3. getElementsByClassName: Select elements by class name (HTMLCollection)
+    const cars = document.getElementsByClassName("car");
+    console.log("getElementsByClassName (class='car'):");
+    for (let car of cars) {
+      console.log("-", car.textContent);
+    }
+
+    // 4. querySelector: Select first matching CSS selector
+    const firstCar = document.querySelector(".car");
+    console.log("querySelector (first .car):", firstCar.textContent);
+
+    // 5. querySelectorAll: Select all matching CSS selectors (NodeList)
+    const allCars = document.querySelectorAll(".car");
+    console.log("querySelectorAll (.car):");
+    allCars.forEach(car => console.log("-", car.textContent));
+  </script>
+
+</body>
+</html>

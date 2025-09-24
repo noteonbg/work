@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Number and String Conversion in JavaScript</title>
+</head>
+<body>
+
+<script>
+  // Number to String conversions
+  let num = 123.45;
+
+  // 1. Using toString()
+  let str1 = num.toString();
+  console.log("1. num.toString():", str1, typeof str1);
+
+  // 2. Using String() function
+  let str2 = String(num);
+  console.log("2. String(num):", str2, typeof str2);
+
+  // 3. Using concatenation with empty string
+  let str3 = num + "";
+  console.log('3. num + "":', str3, typeof str3);
+
+  // 4. Using template literals
+  let str4 = `${num}`;
+  console.log("4. Template literal:", str4, typeof str4);
+
+  console.log("--------------------------");
+
+  // String to Number conversions
+  let strNum1 = "456.78";
+  let strNum2 = "100px";      // Not a pure number, will show NaN for some methods
+  let strNum3 = "   789   ";  // Has whitespace
+  let strNum4 = "0xF";        // Hexadecimal string
+
+  // 1. Using Number()
+  console.log("1. Number('456.78'):", Number(strNum1), typeof Number(strNum1));
+  console.log("1. Number('100px'):", Number(strNum2)); // NaN
+  console.log("1. Number('   789   '):", Number(strNum3));
+  console.log("1. Number('0xF'):", Number(strNum4));
+
+  // 2. Using parseInt()
+  console.log("2. parseInt('456.78'):", parseInt(strNum1)); // 456 (drops decimal part)
+  console.log("2. parseInt(''100px):", parseInt(strNum2)); // 100 (stops parsing at first non-digit)
+  console.log("2. parseInt('   789   '):", parseInt(strNum3));
+  console.log("2. parseInt('0xF'):", parseInt(strNum4)); // 0, because parseInt defaults to base 10 unless specified
+
+  // 3. Using parseFloat()
+  console.log("3. parseFloat('456.78'):", parseFloat(strNum1)); // 456.78
+  console.log("3. parseFloat('100px'):", parseFloat(strNum2)); // 100
+  console.log("3. parseFloat('   789   '):", parseFloat(strNum3));
+  console.log("3. parseFloat('0xF'):", parseFloat(strNum4)); // 0, doesn't parse hex
+
+  // 4. Using unary plus (+)
+  console.log("4. +'456.78':", +strNum1);
+  console.log("4. +'100px':", +strNum2); // NaN
+  console.log("4. +'   789   ':", +strNum3);
+  console.log("4. +'0xF':", +strNum4); // 15 (hex parsed by unary plus)
+
+  console.log("--------------------------");
+
+  // Edge cases
+  let invalidStr = "abc123";
+  console.log("Number('abc123'):", Number(invalidStr)); // NaN
+  console.log("parseInt('abc123'):", parseInt(invalidStr)); // NaN
+  console.log("parseFloat('abc123'):", parseFloat(invalidStr)); // NaN
+  console.log("Unary plus ('abc123'):", +invalidStr); // NaN
+
+</script>
+
+</body>
+</html>
+
+
+<!--
+
+| Conversion Method | Description                                            | Example Result                                   |
+| ----------------- | ------------------------------------------------------ | ------------------------------------------------ |
+| `toString()`      | Converts number to string                              | `(123).toString()` → `"123"`                     |
+| `String()`        | Converts any value to string                           | `String(123)` → `"123"`                          |
+| Concatenation     | Adding empty string converts number to string          | `123 + ""` → `"123"`                             |
+| Template Literal  | Backticks convert to string                            | `` `${123}` `` → `"123"`                         |
+| `Number()`        | Converts string to number, returns `NaN` if invalid    | `Number("456")` → `456`, `Number("abc")` → `NaN` |
+| `parseInt()`      | Parses integer from start, ignores trailing non-digits | `parseInt("100px")` → `100`                      |
+| `parseFloat()`    | Parses floating number from start                      | `parseFloat("100.50px")` → `100.5`               |
+| Unary plus `+`    | Converts string to number (like `Number()`)            | `+"456"` → `456`                                 |
+
+-->

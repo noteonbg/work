@@ -1,0 +1,463 @@
+0. what we need to do.
+1. javascript
+2. git..
+
+
+css is a ocean and your project needs css..
+
+when we say css.. real thing to ensure that layout is fixed correctly
+we have option of using.
+
+1. css without any framework.
+2. bootstrap.
+outside these two options dont touch anything else.
+
+
+
+
+1. generalize your learning.
+2. tolerate uncertainty.. I dont know something can i write a small program to clarify
+my concept or syntax.
+
+
+what we need to do.
+
+basic rule decision making will always be better if you take time perspective..
+
+
+1. we need some common layouts irrespective of the domain.. we are in..
+header
+footer.
+grid
+
+
+in real life.. ghosts needs to come to earth.
+
+ghosts == intent without details...
+
+all of us have to think we are 4th std kids and we have multiple subjects to deal with and not
+just one..
+
+1. html+ css.
+2. javascript
+3. git.
+4. react
+
+-------------------------------------
+Dont touch bootstrap. but try to understand demo bootstrap programs.. and we will
+see how to approach bootstrap. slowly...
+
+1. continue to focus on css....
+2. javascript
+3. git part.
+
+
+
+Keep good intent... how to make project successful.
+to work in a group... knowing some basics will help... 
+
+basics.. 100% clean intent and zero manipulation
+1. effective executive by peter drucker.
+2. managing oneself by peter drucker.
+I am 100% sure these are not personality developments... generalized way of looking
+at things..
+
+---------------------------------------------
+Javascript..
+
+we are going to use react framework in reactframework we code by using javascript.
+programming language..
+why are we learning it... answer is we are building web based presentation.
+
+we are dealing with a programming language..
+
+who is a programmer...
+1. a programmer is a person who can some body English and convert that into
+functions and variables fitting in a particular architecture.
+
+programmer has to do things..
+
+1. show he is useful in a project... by understanding architecture and writing code
+which fits into the architecture.
+2. technically he must be 5/5 in functions and variables..
+
+
+
+out of 100 people in IT industry including all colleges
+may be 2 or 3 may be 5/5 in funtions and variables remaining people are pathetic
+English professors talking jargons.. This is disgusting, but that is reality.
+
+let us keep the intent as being a technical person and not act like a technical person..
+
+
+how to take revenge on team memember
+ask somebody to define a function and tell everybody dont call it.
+only typing improved...
+
+
+what is function assignment 
+passing a function as an input to another function.
+
+
+f1(f2);
+
+in the colleges the pathetic thing that happens and it takes alot of time sometime
+impossible is they get addicted to only int type.... live and die in int.... but projects
+are not about int...
+
+people should know passing things to a function as input or retuning from
+functions are assingments..
+
+
+int i=3;
+f1(i);
+
+
+function assignment..
+1. we are calling a function let us say f1.
+2. while calling this f1 function we are passing another function called f2 as input to the f1
+function.
+
+
+f1(3);
+we are calling f1, we are passing an int to it.
+
+
+f1(f2);
+we are calling f1 function we are passing another function called f2 to it.  == function
+assignment super important thing in every programming language... without this
+zero projects..
+
+
+
+
+
+
+i=3
+
+int i =3;
+
+let i =3;
+
+$k =3; //php
+who cares for the language. one thing is for sure, any variable created must
+belong to some data type..
+
+what is data type?
+what operations you can perform on the variable.. and obviously based on that content.
+
+
+int i =3;
+i = i -1;
+print i.
+//I will not focus on the operations ok then any type is ok for you.
+
+String s ="Hello"
+s=s -"Hell";
+print s.
+why it will not print o..
+- operation is not defined on the string.
+
+
+String s="Hell"
+s = s+"o";
+print s.
+
+
+
+
+i=3  you dont need to mention the data type , python wil infer
+
+let i =3;/javascript... it has data type
+
+
+int i=3; it has data types
+
+
+
+
+
+int i =3;
+
+any person who is not 5/5 in functions and variables, dont call yourself as a programmer.
+
+ok we are starting with javascript.. same thing.. be 5/5 in functions and variables. first..
+no I wont be.. ok then English is there use it and chew other people brain...
+
+
+let us aim for 5/5 in javascript as far functions and variables goes.. is it possible
+yes... will take 100 years no... it will  just take 1 day... you must priotize this..
+
+
+
+javascript..
+
+1. javascript is full fledged programming language we are using to build
+web based presentation. that means..
+
+by using javascript. we are planning to run it in the browser..
+
+1. by using javascript we will do the following.
+
+
+1. access parts of the html page.
+2. contact server, pass some data, get some data.. finally...
+3. based on data given by server, update the html page ( Routing)
+
+what will be challenges we will face....
+1. are we 5/5 in functions and variables..
+2. in html are we concious about ...
+
+what will change in the html..
+
+
+If I have to change some part of the html, what is most important syntax..
+i should remember..   Id  attribute
+
+quick summary.
+1. working in a group of people needs a process, good to learn it... effective executive.
+2. in terms of working.... think of css from a project point of view, despite
+not knowing what your project is.
+3. remember you are 4th std kid.. you cannot have one subject multiple subjects
+live with .. , html, css, javascript, 
+4. remember in CSS.. layouts part is hardest thing, so start spending time on it.
+5. javascript... know the theory what it means to be 5/5 in functions and variables..
+6. we are using javascript for web based presentation so.
+6.1 access parts of the html (ID)
+6.2 call server, send data, get data..
+6.3 update the page... ( ID)
+
+
+Javascript.. first thing to remember, RESPECT JAVASCRIPT AS A NEW LANGAUGGE WE ARE ZERO
+IN IT.. SO WE WILL LEARN EVERYTHING FRM BASICS....
+i KNOW PYTHON, SO i WILL MANAGE JAVASCRIPT..
+i KNOW JAVA, SO I WILL MANAGE JAVASCRIPT
+SEE YOU IN hELL.
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+https://javascript.info/
+
+
+
+let i =3;// javascript will not judge the data type of the variable until 
+let k = i -1;// 100% now know that i is a number type..
+
+you stat performing opoerations on it..
+
+something you encountered in
+
+C
+python
+C++
+java
+javascript.
+RDBM
+
+
+interactiveness.
+
+1. reacting to events, (when you do something, change some part of the page.)
+2. valiation
+3. contact server send some data and get some data..
+you need javascript.
+
+11.15AM we will join back..
+
+
+
+
+
+
+
+
+
+
+
+
+
+we are going to use javascript in context of the browser. so what are the ways.
+
+1. you can write it in a separate file and link it up
+2. head region... after the body tag is over.. at the end of the html page..
+3. you can write at element level also..
+
+javascript there are multiple ways of creating variables.
+
+we will use
+
+1. let
+2. const
+3. var... we will discuss this later very old style , in todays world
+you should not use this.. in todays world last 15 years..
+
+
+
+let x =null;
+it means one day x will be an object, but currently it is not having anything..
+
+you can use null for comparison
+
+if ( x == null)
+  ok i now x is not having any object, i will put one..
+
+to tell a local variable you must see a function...
+dont use the word local variable until you see  variable created
+a inside a function..
+
+
+get used to habit of reading things from official places and not freaky places.
+
+why objects are created?
+because project demands it.
+
+my project.
+my here.. indicates objects..
+
+object is project specific data type..
+
+when we are calling other people function.. which is case most of time...
+until we open documentation we will know not know purpose of function
+what does it return, what does input indicate..
+
+Strings..
+why is string important, human begins like strings.. for everything..
+please we want to name it , see it... etc.. that is reason it is important
+in the project also...
+
+Every person who tells I know  programming language... must learn strings
+because in every project it comes.. why 
+
+let x ="hi";
+let y = x.toUpperCase();
+console.log(x);
+
+how to convert a number to a string
+string to a number..
+
+in javascript there are different ways of creating functions...
+1. by using function keyword
+2. by using arrow.
+3. by creating function inside the class.. it is has got a different syntax.
+
+definer of the function must know what is data type is expecting
+by looking at the function any other person cannot make out the data type
+of the input being passed.
+
+
+
+ let sayGoodbye = function(name) {
+    console.log("Goodbye, " + name + "! This is an anonymous function stored in a variable.");
+  };
+
+we are defininga  function whose input is a variable called name
+and we are assigning this function to a variable called saygoodBye.
+
+
+
+
+
+
+
+
+
+none of the syntax we used a freaky syntax, these are used 100% inthe project frequently that is reason it is there in the code...
+
+we will keep getting doubts while working on a project, but the most important
+question are you willing to write a small program which will clarify your doubt..
+for most people in IT industry answer is no, they are scared to death to write
+a new program because .... technically poor..
+
+if you are confused about this... they go step by step...
+
+
+1. some function is defined 
+
+2. some function is being called.
+
+3. in 2, we are passing 1 as an input.
+
+
+
+
+to understand function assignment.. first thing you should know there will be two
+people and not one person...
+
+
+let us Ramesh and suresh are two people.
+
+Ramesh writes a function and its input argument is another function.
+let us Ramesh writes f1 function.. it doing some job called x, its input
+argument is another function.
+void f1(x)
+{
+console.log("doing some important job");
+x();
+
+}
+
+
+suresh is going to call Ramesh function f1. because Ramesh function
+needs input as another function, suresh is forced to define a function called f2.
+and then call Ramesh function f1....
+function f2()
+{
+console.log("ok Ramesh i agree to you");
+
+}
+call Ramesh function
+f1(f2);
+
+suresh has defined the function f2, calling the Ramesh function f1 
+and assigning f2 while calling f1... must know what Ramesh is expecting from
+f2 and ensure that is done...
+
+
+
+
+function assignment ensure ... you are knowing two people are there...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+addiction to syntax makes them a horrible person technically..
+
+oh no you are telling becuae you got experience, no nono.
+
+a person can have 25 years in IT and still be pathetic... so in IT yoiu should
+never take anybody experience serioiusly. who knows what they know let them prove
+it inthe project...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

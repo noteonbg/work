@@ -1,0 +1,32 @@
+<html>
+<script>
+
+
+//ramesh code. observe f1 is only defined
+
+//why cant ramesh write f2 by himself
+// ramesh does not know the context.. context by provided
+//by the caller.
+function f1(x)
+{
+    console.log("important thing called Y being done");
+    x();
+}
+
+//suresh code
+// wants f1 to be called. becuae that is important for him.
+//but to call f1, ramesh is telling you must give a function to me...
+function f2()
+{
+    console.log("giving ramesh some input to do important jobs");
+}
+f1(f2);
+
+
+
+
+
+</script>
+
+
+</html>

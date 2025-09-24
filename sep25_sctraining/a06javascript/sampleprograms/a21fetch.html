@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Fetch API Example</title>
+</head>
+<body>
+
+  <h2>Open console to see fetched data</h2>
+
+  <script>
+    // Using Fetch API to get data from a public API
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Fetched data:', data);
+      })
+      .catch(error => {
+        console.error('Fetch error:', error);
+      });
+  </script>
+
+</body>
+</html>

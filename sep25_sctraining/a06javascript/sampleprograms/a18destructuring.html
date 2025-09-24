@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Array & Object Destructuring Example</title>
+</head>
+<body>
+
+  <h2>Open the browser console to see the output</h2>
+
+  <script>
+    // Array of car objects
+    const cars = [
+      { brand: "Toyota", year: 2010 },
+      { brand: "Honda", year: 2015 },
+      { brand: "BMW", year: 2020 }
+    ];
+
+    // Destructure first two cars from the array
+    const [firstCar, secondCar] = cars;
+
+
+    //we are taking the cars array extracing the first element to the variabe firstcar and secon delement in the array
+    //to the variable called secondCar -- doing this is called destructuring..
+
+    
+
+
+    // Destructure properties from the first car object
+    const { brand: firstBrand, year: firstYear } = firstCar;
+    const { brand, year } = firstCar;
+
+    // Destructure properties from the second car object
+    const { brand: secondBrand, year: secondYear } = secondCar;
+    //secondCAr pick up brand property and store it in a variable called secondBrand.
+    
+
+    console.log(`First Car: ${firstBrand}, Year: ${firstYear}`);
+    console.log(`Second Car: ${secondBrand}, Year: ${secondYear}`);
+  </script>
+
+</body>
+</html>

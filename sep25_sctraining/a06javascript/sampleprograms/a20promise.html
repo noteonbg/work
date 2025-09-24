@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Promise Example</title>
+</head>
+<body>
+
+  <h2>Open the browser console to see the Promise result</h2>
+
+  <script>
+    // Create a new Promise that resolves after 2 seconds
+    const myPromise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const success = true; // Change to false to test reject
+        if (success) {
+          resolve("Operation successful!");
+        } else {
+          reject("Operation failed!");
+        }
+      }, 2000);
+    });
+
+    
+
+    // Using the promise
+    myPromise
+      .then(result => {
+        console.log("Promise resolved:", result);
+      })
+      .catch(error => {
+        console.error("Promise rejected:", error);
+      });
+  </script>
+
+</body>
+</html>

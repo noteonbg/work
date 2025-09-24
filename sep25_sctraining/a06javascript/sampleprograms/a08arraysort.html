@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Array Methods Demo: reverse, sort, toString</title>
+</head>
+<body>
+
+<script>
+  let fruits = ["banana", "apple", "cherry", "Date"];
+
+  console.log("Original array:", fruits);
+
+  // reverse(): reverses the array in place
+  fruits.reverse();
+  console.log("After reverse():", fruits);
+
+  // sort(): sorts the array alphabetically (lexicographically)
+  fruits.sort();
+  console.log("After sort():", fruits);
+
+  // toString(): converts array to a comma-separated string
+  let fruitsString = fruits.toString();
+  console.log("After toString():", fruitsString);
+  console.log("Type of toString result:", typeof fruitsString);
+</script>
+
+</body>
+</html>

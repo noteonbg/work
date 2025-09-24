@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add and Remove Element Example</title>
+</head>
+<body>
+
+  <div id="container">
+    <p>This is the container.</p>
+    
+  </div>
+
+  <button id="addBtn">Add Element</button>
+  <button id="removeBtn">Remove Last Element</button>
+
+  <script>
+    const container = document.getElementById("container");
+    const addBtn = document.getElementById("addBtn");
+    const removeBtn = document.getElementById("removeBtn");
+
+    // Add new paragraph element on button click
+    addBtn.onclick = function() {
+      
+      const newPara = document.createElement("p");
+      newPara.textContent = "New paragraph added!";
+      container.appendChild(newPara);
+    };
+
+    // Remove last paragraph element on button click
+    removeBtn.onclick = function() {
+      const paragraphs = container.getElementsByTagName("p");
+      if (paragraphs.length > 0) {
+        const lastPara = paragraphs[paragraphs.length - 1];
+        container.removeChild(lastPara);
+      } else {
+        alert("No more paragraphs to remove!");
+      }
+    };
+  </script>
+
+</body>
+</html>

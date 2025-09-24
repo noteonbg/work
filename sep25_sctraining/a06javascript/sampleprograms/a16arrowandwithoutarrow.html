@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Arrow vs Regular Functions</title>
+</head>
+<body>
+
+  <button onclick="runExamples()">Run Examples</button>
+
+  <script>
+    function runExamples() {
+      const cars = [
+        { brand: "Toyota", year: 2010 },
+        { brand: "Honda", year: 2015 },
+        { brand: "BMW", year: 2020 },
+        { brand: "Ford", year: 2008 }
+      ];
+
+      console.log("=== Using Arrow Functions ===");
+
+      // forEach with arrow function
+      cars.forEach(car => console.log(`Brand: ${car.brand}, Year: ${car.year}`));
+
+      // map with arrow function
+      const carBrands = cars.map(car => car.brand);
+      console.log("Car Brands:", carBrands);
+
+      // filter with arrow function
+      const modernCars = cars.filter(car => car.year >= 2015);
+      console.log("Modern Cars (2015+):", modernCars);
+
+      console.log("\n=== Using Regular Functions ===");
+
+      // forEach with regular function
+      cars.forEach(function(car) {
+        console.log("Brand:", car.brand, "| Year:", car.year);
+      });
+
+      // map with regular function
+      const years = cars.map(function(car) {
+        return car.year;
+      });
+      console.log("Car Years:", years);
+
+      // filter with regular function
+      const oldCars = cars.filter(function(car) {
+        return car.year < 2015;
+      });
+      console.log("Old Cars (before 2015):", oldCars);
+    }
+  </script>
+
+</body>
+</html>

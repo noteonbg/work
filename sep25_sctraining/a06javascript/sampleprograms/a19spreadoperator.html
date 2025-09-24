@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spread Operator Example</title>
+</head>
+<body>
+
+  <h2>Check the console for spread operator examples</h2>
+
+  <script>
+    // Spread with number arrays
+    const arr1 = [1, 2, 3];
+    const arr2 = [4, 5, 6];
+
+    // Combine arrays
+    const combined = [...arr1, ...arr2];
+    console.log("Combined Array:", combined);
+
+    // Copy an array
+    const copyArr = [...arr1];
+    console.log("Copy of arr1:", copyArr);
+
+    // Spread in function call
+    function sum(a, b, c) {
+      return a + b + c;
+    }
+    console.log("Sum of arr1 elements:", sum(...arr1));
+
+    // Spread with objects
+    const car1 = { brand: "Toyota", year: 2010 };
+    const car2 = { model: "Camry", color: "Blue" };
+
+    // Merge objects
+    const mergedCar = { ...car1, ...car2 };
+    console.log("Merged Car Object:", mergedCar);
+
+    // Copy an object
+    const carCopy = { ...car1 };
+    console.log("Copy of car1:", carCopy);
+
+    // Overwrite property while copying
+    const updatedCar = { ...car1, year: 2022 };
+    console.log("Updated Car:", updatedCar);
+  </script>
+
+</body>
+</html>

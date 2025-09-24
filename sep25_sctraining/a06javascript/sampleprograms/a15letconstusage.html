@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>let and const Example (Function)</title>
+</head>
+<body>
+
+  <button onclick="showLetConstExample()">Run let/const Example</button>
+
+  <script>
+    function showLetConstExample() {
+      // let: variable that can be reassigned
+      let carBrand = "Toyota";
+      console.log("Initial car brand (let):", carBrand);
+
+      carBrand = "Honda"; // reassigning
+      console.log("Updated car brand (let):", carBrand);
+
+      // const: variable that cannot be reassigned
+      const carModel = "Civic";
+      console.log("Car model (const):", carModel);
+
+      // const with objects
+      const car = {
+        brand: "Ford",
+        year: 2020
+      };
+
+      console.log("Initial car object (const):", car);
+
+      // Modifying property (allowed)
+      car.year = 2023;
+      console.log("Modified car object (const):", car);
+
+      // Attempt to reassign (commented out because it's an error)
+      // car = { brand: "Nissan", year: 2024 }; // ❌ Error: Assignment to constant variable.
+    }
+  </script>
+
+</body>
+</html>

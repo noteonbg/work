@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript String Creation Demo</title>
+</head>
+<body>
+
+<script>
+  // 1. Using double quotes
+  let str1 = "This is a string with double quotes";
+
+  // 2. Using single quotes
+  let str2 = 'This is a string with single quotes';
+
+  // 3. Using backticks (template literals)
+  let str3 = `This is a string with backticks (template literals)`;
+
+  // 4. Creating a string using String constructor
+  let str4 = new String("This is a string created with the String constructor");
+
+  // 5. Multiline string using backticks
+  let str5 = `This is
+a multiline
+string`;
+
+  // 6. Embedding expressions inside template literals
+  let name = "Tesla";
+  let str6 = `This car brand is ${name}`;
+
+  console.log("String using double quotes:", str1);
+  console.log("String using single quotes:", str2);
+  console.log("String using backticks:", str3);
+  console.log("String using String constructor:", str4);
+  console.log("Multiline string using backticks:\n", str5);
+  console.log("Template literal with expression:", str6);
+
+  // Checking types
+  console.log("Type of str1:", typeof str1); // string
+  console.log("Type of str4:", typeof str4); // object because of String constructor
+</script>
+
+</body>
+</html>

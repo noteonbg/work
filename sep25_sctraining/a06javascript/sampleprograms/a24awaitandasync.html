@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Async/Await Example</title>
+</head>
+<body>
+
+  <h2>Open the browser console to see async/await result</h2>
+
+  <script>
+    // Async function that simulates an operation
+    async function runAsyncOperation() {
+      try {
+        const result = await new Promise((resolve, reject) => {
+          setTimeout(() => {
+            const success = true; // Change to false to test reject
+            if (success) {
+              resolve("Operation successful!");
+            } else {
+              reject("Operation failed!");
+            }
+          }, 2000);
+        });
+
+        console.log("Async/Await result:", result);
+      } catch (error) {
+        console.error("Async/Await error:", error);
+      }
+    }
+
+    // Call the async function
+    runAsyncOperation();
+  </script>
+
+</body>
+</html>
+
+
+<!--
+
+The runAsyncOperation function is declared with async.
+Inside, we await the Promise, so the code waits for the Promise to settle.
+Use try...catch to handle success and error cases.
+Call the async function to run it.
+
+-->
+
+

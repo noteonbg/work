@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DOM Manipulation Example</title>
+</head>
+<body>
+
+  <h2 id="heading">Original Heading</h2>
+  <img id="carImage" src="https://via.placeholder.com/150" alt="Car Image" />
+  <div id="content">This is the original content.</div>
+
+  <!-- we crated a button and we have registered for the event onClick-->
+  <button onclick="dontchangeDOM()">Change DOM</button>
+
+  <script>
+    function dontchangeDOM() {
+      const heading = document.getElementById("heading");//getting aparticular region in
+      //the html page
+      const image = document.getElementById("carImage");
+      const content = document.getElementById("content");
+
+      // 1. Change CSS color property
+      heading.style.color = "green";
+
+      // 2. Use setAttribute to change image src and alt
+      image.setAttribute("src", "https://via.placeholder.com/150/0000FF/FFFFFF?text=New+Car");
+      image.setAttribute("alt", "New Car Image");
+
+      // 3. Change innerHTML of the div
+      content.innerHTML = "<strong>Content has been <em>updated</em> with new HTML!</strong>";
+    }
+  </script>
+
+</body>
+</html>
