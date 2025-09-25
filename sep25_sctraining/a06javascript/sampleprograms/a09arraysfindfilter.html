@@ -7,6 +7,9 @@
 <body>
 
 <script>
+
+  //Ok finally some real programs why..
+  //array contains objects.
   const cars = [
     { brand: "Toyota", year: 2010 },
     { brand: "Honda", year: 2015 },
@@ -14,23 +17,25 @@
     { brand: "Audi", year: 2018 },
   ];
 
-  // 1. forEach() - execute a function for each element (no return)
-  console.log("forEach(): list all car brands:");
-  cars.forEach((car) => {
-    console.log("- " + car.brand);
-  });
-  //forEach we have passed a function that does not return anythin
+  
 
-  cars.forEach(whocaresforthename);
+  cars.forEach(f1);
 
 
-  function whocaresforthename(arrayelement,index)
+  function f1(arrayelement,index)
   {
     console.log(arrayelement+"---"+ index);
   }
 
 
 
+
+  // 1. forEach() - execute a function for each element (no return)
+  console.log("forEach(): list all car brands:");
+  cars.forEach((car) => {
+    console.log("- " + car.brand);
+  });
+  //forEach we have passed a function that does not return anythin
 
 
 

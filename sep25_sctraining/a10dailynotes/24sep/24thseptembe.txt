@@ -1,0 +1,366 @@
+Intent first language next..
+
+
+quick story about what we are supposed to do.
+
+assumption.
+html, css ,boot strap pdf.
+1. html validation assignment ( everybody has done it ).. red flag
+2. home page which uses only html and css... ( doing... )
+3. bootstrap assignment home page...  ( not started  --started... lightly )
+
+javascript
+1. Fibonacci multiples ( done )
+2. bootstrap and html form without css ( doing ) -- currently high priority
+3. bootstrap and html form without css ( not started or may be started) currently high priority
+
+software setup
+1. git  setup ( 100% done)
+2. node js ( nearly done..)
+
+
+Today.
+1. we will will start with hello world git..we will do almost everything
+except get things from cloud, push things to cloud..
+2. continue javascript adventure... as part of it, we will discuss
+the most important thing called function assignment, Event handling.
+3. if time permits we will see meaning of contacting server...
+
+
+javascript
+1. access parts of the page.
+2. contact server, pass some data, get some data from server eventually.
+fetch.. in javascript.... promise... async .. await..
+3. update the page.
+4. validation..... on need basis ...dynamic decoration..
+
+difference github and git..
+
+what is git..
+
+I dont have any azure or github.. i am just a pc I can use git here also.
+just one one pc...
+
+
+we are in a project in real life,, it means there is a repo on the cloud.. or on some
+server..
+
+1. we know authentication information and then we clone it.(we dont know
+this... we will skip this as of now.. this is very simple step.. )
+2. we will create a folder.. all projects will be a folder first...
+
+no matter whatever i work on, if i am not conscious about my folder structure
+what they mean then I am a unconscious programmer
+
+we have folder. currently we did not get this projectfolder from cloud..
+1. git init
+
+
+create a folder called gitpoc..
+git init in that folder.
+
+
+you have a folder which can work with git commands... how did you
+ensure, git init in that folder..
+
+
+
+we are issuing git commands from command prompt. or githash or some ui
+tool fix the approach..
+
+
+1. do you know how to open gitbash.
+2. come to the folder where you used git init or come to repository folder
+
+
+1. check git is working.. git --version
+2. configure git with username and email.
+3. have a folder where we have done git init.. no needed in real project
+because we would have cloned
+4. either command prompt or gitbash does not matter come to the project folder.
+
+
+
+
+1. you know your project folder.
+2. let us see what all branches are there in repo..
+3. we created a new branch and went to that branch.. by using a command
+git checkout -b loginbranch
+4. we create a new file...
+5. open visual code and create a.txt file with some content in that project project
+folder.
+
+git operates thru
+
+1. working folder a.txt
+2. staging area.  --move it here... in case you want to change it remove it...
+3. repo  - commit 
+
+
+
+
+we are back to javascript.
+
+1. Event handling.
+2. javascript functions like map, foreach,filter.
+basis for this is going to be our yesterday
+function and variable picture.
+
+what is meaning of Event?
+
+
+
+any person who use alert box in the project is a pathetic
+person he should removed from the project.
+
+those who focus only on syntax, enjoy unlimited misery
+in life everyday...
+
+
+
+
+
+
+<button onclick="showText()">Show Text</button>
+we are registering for the event called onclick
+on the button.
+we  are a event listener.
+we are telling the system hey when the click happens
+on the button call the function showText.
+
+onclick="showText()"  ( function assignment.)
+we are telling system taht when the onclick happens.
+then call the function..
+
+f1 function in the code
+1. we are calling it
+2. we are defining it
+3. we are assigning it
+
+if we are event listener.
+then our job will (suresh)
+
+1. define the function
+2. assing the function
+
+
+who will call it..event source (Ramesh)
+
+
+Today 
+
+flight from Chennai to Trichy...is cancelled
+all of us will get message saying flight is cancelled.
+why you disagree? we have not booked the ticket for that flight
+we have not registered for the event.
+since we did not register event source will not know about us.
+
+
+
+we have not created the event for that... 
+
+we have not registered for the event..
+
+
+English professors will come to React... and talk about this thing called Hooks
+
+
+
+if you dont generalize your learning, suffer.. suffer suffer... because
+we are not  a science person. so live and die in vocabulary...
+
+
+too many things to remember   == "science is absent"
+
+
+
+
+
+http request words..
+
+Get
+Post  events in http
+
+Interrupt event in os
+
+Trigger event in the database 
+ 
+onClick event at the ui level
+
+whocares mindmap remains same.
+
+
+0. git some basics we know...
+concept of .gitignore.. we can mention of some folders and files that will
+not be part of git.. repository..
+1. all are events..
+
+
+Arrays...
+
+1. it is indicated by  [  ] in javascript
+2. it can contain any type of element.
+3. size can change..
+
+again function assignment..
+
+
+
+
+
+
+
+
+this array also is not great , cars array, fruits array both are not great..
+why... in reall ife array will objects.. which are project specific.
+
+
+
+
+for doing sorting?
+how to compare two things..  >,< and == .. predicate functions..
+how old is this story 50 years old...
+till today it has not changed..
+
+
+
+those who dont know function assignment will be dead in every programming language.
+
+
+function assignment.
+1. think of two people..
+
+1. it is the person   "X" has created javascript..  Ramesh. 
+2. "we  == you and I" .. are users of javascript.  ... Suresh.
+3.  foreach is the function we want to call, but it is written by X.
+4. X is telling us hey if you want to call for each, they you must define a function
+called anyting, but it should take only one input and it should not return anything.
+
+
+
+during function assignment.
+
+there is a standard thing which we will do.
+
+
+1. call a function written by some else let us f2.
+2. we will define f1.. which will based on what is f2 is telling.
+3. we will call f2 and pass f1 to it
+f2(f1);
+
+
+we are calling a function f1..
+
+f1();
+
+you must be conscious who is calling the function..
+
+function assignment..
+
+function f1(forced1,forced2)
+{
+
+}
+
+
+f2(f1);  //f2 will decide what is input of f1 an what is return type of f1.
+
+100% be sure f1 function definition and calling of f2 is done by the same person.-- Person Y
+calling of f1 and definition of f2 is done by some other person called Person X.
+Y has to be slave of X.
+
+f1 == f1 function in the code.
+
+
+if you do function assignment that function is being defined by us and called by somebody else.
+
+
+
+
+what does forEach.
+
+1. it takes an input as a function. this function must compulsorily get two arguments.
+2. what does foreach do, take each element of the array, and call the function by supplying
+the first argument as the array element and second argument as the index.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const car2025 = cars.find(kidinfant);
+  //the function we are passing to find what does it return boolean
+
+
+  function kidinfant(car)
+  {
+    return car.year === 2016;
+  }
+
+find function will dictate how kidinfant function should be defined...
+
+why do functions need another function as input..?
+person who wrote the function cannot assume about some part of the logic..
+so he tells you write the logic and give it to me as a function, I will use it
+in doing things..
+
+
+
+
+find function guy will not know what is content of the array.
+that means he cannot decide meaning of search...
+so what he does he tells I will do one thing,, start taking each element
+from the array and giving to you... you tell me when you found it...
+that time return true, this English is written in form a function and then assingned
+to find.
+
+
+
+
+1. complete your assingments.
+2. in javascript pdf more javascript assingments are there in pages, try that one also
+3. go thru the javascript sample programs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
