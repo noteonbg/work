@@ -411,11 +411,218 @@ f1(f2);
 suresh has defined the function f2, calling the Ramesh function f1 
 and assigning f2 while calling f1... must know what Ramesh is expecting from
 f2 and ensure that is done...
+most of times in javascript we are suresh and not Ramesh... so we are going
+to define fucntions and then let system call it.. while doing this we must
+know some conditions..
+
 
 
 
 
 function assignment ensure ... you are knowing two people are there...
+
+tolerate uncertainty.. it is ok... but then are you willing
+to write small program to clarify your doubt..
+
+before writing code think of architecture.
+be good at functions and variables (5/5)
+
+
+
+0. github...https://github.com/noteonbg/work/tree/main/sep25_sctraining/a06javascript
+till functions..
+1. javascript.pdf... page 22. that assignment you have to try.
+2. javascript.pdf ..page 56, dont write javascript use bootstrap and html and try
+to see to build the screen.
+3. javascript.pdf ..page 58, 59 dont write javascript ,use bootstrap and html
+and try to build the screen.
+4. html, css page 9 adventures..
+
+
+
+
+document.getElementById... hope people who used this know its meaning..
+Arrays... hope they know what they did with the array..
+
+
+
+
+Git..
+1. intent first , language next..
+keep the intent as always to solve the customer problem and be useful in the project
+technical improvement whatever happens let it be a byproduct..
+
+successful project.
+1. how many people are using it
+2. how long. you get data how successful your project is..
+
+a good process will gurantees you repeatable results.
+to make a project successful.
+
+culture.. something is telling what behavior is acceptable, what is not acceptable
+behavior.
+
+to do your project.
+what all things has to be done.
+in what order.
+by when ***
+who will do it... gannt chart..
+
+it will give us clarity...
+planning is  done for direction and not for certainty...
+
+what is git?
+version control system, we can track changes and control changes..we collaborate
+with others.
+
+meaning I have a project repo 
+we have a folder which contains project files which understands git commands.
+
+imagine I am your team member I am stupid most person, still you should
+be able to get good work done from me, it is possible provided you operate
+thru checklists..
+dont worry on Monday you will get spoon fed instruction how to set email.
+
+
+
+
+let us Ramesh, suresh and Mahesh are three team members in a project.
+there have a repo in the azure cloud... they know how to authorize
+them with the azure cloud... that means they have repo folder in the azure..
+not on their system but on the cloud...
+
+Ramesh job is to write adding of two numbers.
+sures job is to write subtraction of two numbers
+Mahesh job is to write multilication  two numbers.
+
+Ramesh takes reposnbility for merging of all codes.
+
+Somebody in the team should take responsibility for merging all the code...
+who is this person, he should be comfortable with git 2/5
+responsibility = do your job + other person job also.
+
+1. in the server, there is a repo folder which contains a branch called "develop"
+it does not contain any files... it is empty...
+
+summary
+1. repo is there.
+2. branch name is known... by default branch main or master.. dont touch it...
+3. it does not contain any files..
+4. it is on the cloud.
+5. team members know how to authenticate ..
+
+
+Ramesh computer
+ git clone .. repo .. develop. there are commands to do it..
+folder which was there on the cloud is now available in their system.
+he will create a branch called addfeature
+code.
+add
+commit
+all these thing are there on Ramesh computer....
+push the addfeature branch into the azure repo.. , if he feels he has completed
+the job will raise a pull request... 
+Ramesh is telling hey I have completed my add job. now you can merge the branch
+with the develop branch.
+somebody has to review Ramesh code and see if it is ok... only then merge it
+with the develop branch.
+delete the add feature branch in the local computer
+-------------------------------------------
+Next day... what Ramesh will do.. not clone...
+git pull branchname... 
+you will get the lastest data from the azure repo..
+create a new branch withever feature...
+add the code, commit the code
+push the new branch into the azure repo and raise a pull request...
+pull request.. hey look i have my code in this branch, see do you wnat to
+merge it with the main branch...
+
+
+
+
+
+
+
+
+Suresh computer
+ git clone repo develop...
+folder which was there on the cloud is now available in their system.
+he will create a branch called subtractfeature
+code.
+add
+commit
+all these thing are there on Suresh computer....
+push the subtarctfeature branch into the azure repo.. , if he feels he has completed
+the job will raise a pull request... 
+Suresh is telling hey I have completed my subtract job. now you can merge the branch
+with the develop branch.
+somebody has to review Suresh code and see if it is ok... only then merge it
+with the develop branch.
+delete the subtractfeature branch in the local computer
+
+
+
+Mahesh Computer
+ git clone repo develop...
+folder which was there on the cloud is now available in their system.
+create a branch called multiplyfeature.
+code.
+add
+commit
+all these thing are there on Mahesh computer....
+push the multiply branch into the azure repo.. , if he feels he has completed
+the job will raise a pull request... 
+Ramesh is telling hey I have completed my mulitply job. now you can merge the branch
+with the develop branch.
+somebody has to review Mahehsh code and see if it is ok... only then merge it
+with the develop branch.
+delete the mutiplyfeature branch in the local computer
+
+
+
+
+
+
+
+
+
+1. every day your code must go to the cloud azure repo.
+2. in case you completed pull request. telling people put my feature in the develop branch.
+3. every day morning you have to ensure you repo has got the latest thing..
+pull ...
+4.  end of the day. push...
+
+in between
+adding the files repo
+commiting..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

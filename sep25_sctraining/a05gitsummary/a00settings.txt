@@ -3,7 +3,7 @@ Basic Git Configuration
 These are typically set globally (once per machine or user account):
 
 # Set your name
-git config --global user.name "John Doe"
+git config --global user.name "abc"
 
 # Set your email (must match email on GitHub/GitLab for commits to be linked)
 git config --global user.email "xyz@example.com"
