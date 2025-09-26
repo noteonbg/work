@@ -1,0 +1,311 @@
+Agile... intent .. matters, only then process.
+if my intent is wrong I can convert any process into a funeral.
+
+
+what is meaning of intent for you..
+1. can you get into details
+
+
+Hope yesterday
+git worked for all you locally.
+gitignore...  is a file. and we should add it to repo and commit it.
+what will this file contains.
+
+1. all things git should not track.
+
+1. initial project folder. that project folder has got gitignore already present and it is commited..
+this .gitignore should all things which are not project specific..
+
+
+Today story.
+1. javascript adventure.... 
+2. node, react... because we are talking about this we are going npm.
+3. hello world react working.
+4. revisit git again with an assignment. only thing now we will .gitignore.. to the party. revision one small change
+5. review everybody assingments..
+
+
+in terms of assingments.
+1. javascript pdf. html page with bootstrap.. high priority..
+2. css home.. html pdf .. moderate priority.
+3. css home .. bootstrap.. moderate priority
+
+1. relax and keep your bp level normal.
+
+
+
+
+
+what is real thing..
+
+our topic is function assignment.
+
+1.you will see function calling, function assignment and function definition when you say function assignment
+in real life.
+
+
+think of two people.. Ramesh and Suresh..
+f2 = find, foreach,map, filter... these are not written by us... these are written
+javascript guys.. 
+function assignment is done by Suresh..
+f2(f1); //suresh is calling the function written by Ramesh
+// we want to call foreach, filter, map....
+
+we should write a function.. after knowing what foeach, map or filter requires..
+
+
+//suresh is writing f1
+function f1(whateverrameshtells)
+{
+logic is suresh...
+return whateverrameshtells
+
+}
+
+
+
+
+foreach
+map
+filter..
+
+without js nobody can write any javascript project.... in react we will dead and buried
+in case we dont know these syntaxes and just talking jargons will kill us.
+
+functions and varaibles that should be our focus when we call ourselves "programmer"
+
+
+
+
+forEach
+find.
+map.
+filter.
+
+
+when we are very poor technically then only thing we can read is variable name.
+technical person talk thru data types.. and not thru variablenames..
+
+
+
+
+
+
+
+
+
+
+
+
+Function assignment need is there...
+
+two people are there Ramesh and Suresh..
+
+1. Ramesh is doing an important function called filter on Array..
+2. but Ramesh does not care what is content of the array.
+3. he is telling suresh or Mahesh hey boss hwne you call my filter function
+you pass me a function. which will return boolean, I will supply you as input
+the element of the array...hey suresh and mahehs if you feel it meets your critiera
+return true else return false.
+4. meaning of 3 point, is basis of filtering should be decided by suresh or Mahesh
+and  Ramesh does not care... he will simply use the suresh given criteria
+and do it..
+
+
+welcome to the world of problem solving.
+
+1. rule no 1.. if you dont know context dont solve the problem.
+
+
+all of this , the language does not matter will use ... function assignment...
+because definer of the function willnot know the complext context.. context should
+be provided by the caller of the function.
+caller provides the context by defining a function and assigning the function while
+calling the function of other person..
+
+While explaining a concept stay from example, stay away syntax. just talk about
+the concept...
+
+
+1. foreach.
+2. filter.
+3. find.
+4. map
+5. sort.
+
+
+
+function assignment...
+because definer of the function will not know the complete context.. 
+context should be provided by the caller of the function.
+caller provides the context by defining a function and 
+assigning the function while calling the function of other person..
+
+
+example.
+filter. function is already present in javascript... 
+the person who wrote filter function will not know what the array will contain
+will not know on what criteria filtering has to be done.
+
+He tells the caller of the function, We.. they define a function which will
+return boolean, input will the element of the array. you decide when
+you feel it meets the criteria if yes return true...
+
+filter function will call the function given by supplying each element
+in the array.
+
+
+function assignment 
+
+1. we define a function
+2. we assign our function while calling some other person function.
+
+
+
+
+
+
+sorting..
+sorting criteria that is most important thing, which one is big, small and equal.
+multiple sorting criteria in real life depending on user..
+
+1. you copy paste some examples on
+
+two examples and prove you understood.
+
+1. array should have objects and not string or int..
+2. try the below functions
+ foreach
+ map
+ filter
+ sort.
+arrow function.
+3, those who completed please go thru javascript.pdf.
+
+what are you supposed to do.
+
+1. complete the earlier assingments on css, javascript assingments..
+2. javascript pdf page 31,42,
+
+
+we will today start with react.. as a consequence we will understand what npm
+does.. lot of terminolgoies..
+
+
+
+
+a=f1();
+
+x=y
+
+first look at y and then make judgement about x..
+that is how assignment works..
+
+
+bigger problems in python or javascript is way we  learn it..
+language syntax does not matter basics of function and variable remains same.
+
+
+Colleges create misery for students by making them get addicted to just int or string.
+that itself creates 99% of problems in project.
+
+Simple example... and then show all the concepts ...   I will use int... to keep kids happy
+convert the example into a complex example. show all the concepts
+object.
+show concepts are same..
+
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+are you willing to write a small program when you have a doubt.
+
+
+
+The fastest way to amplify misery when in misery is be disorganized.
+
+
+syntax is a function of time.
+concept is not..
+
+after copy pasting prove you understood.
+
+event handling also will not be working.. but htey will write further code...
+go step by step dont write poems..
+
+welcome to consciousness.
+you must what you are accessing... in our case we are accessing textbox
+we must know we are accessing radio button
+we must know we are accessing parapgrah...
+
+Habit of writing few lines looking at output, writing few lines and looking output
+is what we need, this needs more of patience than intelligence..
+
+1. look at the image and understand the code.
+2. page 42 assignment of javascript.pdf.
+3. page 31 assignment of javascript.pdf.
+4. in case you have not completed the earlier assignment of map, filter, sort, foreach
+complete it.
+
+
+
+
+
+AS a technical person we would  not like to get addicted to anything..
+
+
+generalize your learning..
+
+what is playstore, or Appstore?
+which consists of all the apps.
+centralize place for all apps.
+
+npm is a package manager for javascript.
+
+
+Expectation on Monday 29th September 2025
+
+most important you must  explain line by line.
+1. all assignments of javascript.pdf
+2. home page with css on the html pdf.
+3. validation page on the html pdf.
+4. bootstrap home page pending is ok..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
