@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Array Methods Demo: forEach, find, filter, map</title>
+</head>
+<body>
+
+<script>
+
+  //Ok finally some real programs why..
+  //array contains objects.
+
+  const freak=["abc","DEF"];
+  freak = freak.map(slave);
+  console.log(freak);
+  function slave(x)
+  {
+
+    return x.toUpperCase();
+
+
+  }
+
+
+
+
+
+  const cars = [
+    { brand: "Toyota", year: 2010,model:"Fortuner" },
+    { brand: "Toyota", year: 2015,model:"Innova" },
+    { brand: "BMW", year: 2020 ,model:a1},
+    { brand: "Audi", year: 2020,model:a2 },
+  ];
+
+  cars.sort(yearcriteria)
+
+  function yearcriteria(e1,e2)
+  {
+
+    //return pos, if e1 > e2, return neg e1 < e2 and return 0
+    return e1.year > e2.year;
+
+  }
+
+  function makecriteria(e1,e2)
+
+  {
+
+
+  }
+
+
+
+
+
+
+  /*
+  const ohno =  cars.filter(criteriaforfiltering);
+  const bisvaf  =cars.find(criteriaforfiltering);
+  function criteriaforfiltering(freak)
+  {
+
+   return freak.year == 2020;
+
+  }
+  console.log(cars,ohno);
+
+*/
+  
+
+//   const carBrands = cars.map(freak);
+
+//   function freak(x)
+//   {
+//         return x.year;
+       
+//   }
+
+//   console.log(carBrands);
+</script>
+
+<!--
+
+forEach: Logs each car brand to the console.
+find: Returns the first car made in 2015.
+filter: Returns a new array of cars made in 2018 or later.
+map: Returns a new array of car brand names converted to uppercase.
+
+-->
+
+</body>
+</html>

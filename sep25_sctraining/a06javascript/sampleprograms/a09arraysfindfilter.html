@@ -17,50 +17,15 @@
     { brand: "Audi", year: 2018 },
   ];
 
-  
-
-  cars.forEach(f1);
-
-
-  function f1(arrayelement,index)
-  {
-    console.log(arrayelement+"---"+ index);
-  }
-
-
-
-
-  // 1. forEach() - execute a function for each element (no return)
-  console.log("forEach(): list all car brands:");
-  cars.forEach((car) => {
-    console.log("- " + car.brand);
-  });
-  //forEach we have passed a function that does not return anythin
-
-
-
-
-
-  // we used arrow function in the line where we are calling for-each we are defining
-  //and assinging at the same place
-
-
-
-
-
-
-  console.log("-----------------------");
-
-  // 2. find() - returns the first element matching the condition
-  const car2015 = cars.find(car => car.year === 2015);
-
   const car2025 = cars.find(kidinfant);
   //the function we are passing to find what does it return boolean
 
 
-  function kidinfant(car)
+  //how do you come to the conclusion that
+  //horrible is an object.
+  function kidinfant(horrible)
   {
-    return car.year === 2016;
+    return horrible.year === 2016;
   }
 
   console.log("find(): first car from year 2015:", car2015);

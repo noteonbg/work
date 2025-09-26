@@ -9,7 +9,7 @@
   <input type="text" id="myInput"
    placeholder="Type something here" />
    
-  <button onclick="showText()">Show Text</button>
+  <button onclick="showText()">hi </button>
   <!-- in the above line we are calling showText function, this is wrong-->
    <!--  we are assining the function showText to the event onClick .. we are telling
      the system hey one day when you detect the click event on the button, please
@@ -18,6 +18,7 @@
 
   <script>
     function showText() {
+      console.log("freak123");
       const text = document.getElementById("myInput").value;
       alert("You typed: " + text);
     }

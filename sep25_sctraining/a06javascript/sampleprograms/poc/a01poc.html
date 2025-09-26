@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>poc</title>
+        <style>
+             .cr { color:red }
+             .gr { color:green } 
+        </style>
+    </head>
+    <body>
+        <Br/>
+        
+        Number <input type="text" id="numbergiven"  required/>
+        <span id="changingpart"> here will change things </span>
+        <Br/> <button onclick="seventhmultiple()"> get 7th Multiple </button>
+    </body>
+
+    <script>
+
+        function seventhmultiple()
+        {
+            //read whatever is needed for doing the logic
+            const numbertextbox = document.getElementById("numbergiven");
+            let message ="Horrible dont give zero";
+             const x = document.getElementById("changingpart");    
+            //below is called the logic
+            if(numbertextbox.value == 0 )
+            {
+                x.classList.add("cr");
+                x.classList.remove("gr");
+                
+            }
+            else
+            {
+
+                const result = numbertextbox.value * 7;
+                message =`7th multiple is ${result}`;
+                
+                x.classList.add("gr");
+                x.classList.remove("cr");
+            
+
+
+
+            } 
+
+            //update the page after doing the logic
+           
+            x.innerText = message;   
+
+        }
+    </script>
+</html>
