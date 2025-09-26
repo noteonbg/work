@@ -1,0 +1,66 @@
+software versions available
+
+
+JDK - 17
+Maven - 3.9.9
+Postman - 9.14
+Node JS: 16.14+
+VS Code: 1.78+
+GIT: 2.36.0
+IntelliJ: 2023.3.4+
+Python: 3.13.2
+Putty: v0.76
+Pgadmin 4: v5.7
+PostgreSql jar: 42.3.10
+PostgreSQL: 12
+
+check..
+node --versions
+
+npm --version
+in case npm --version is not working, then please check
+    
+   
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+
+
+
+
+Installing node_modules
+npm install bootstrap
+
+
+
+updating..
+npm outdated.
+
+
+npm uninstall <package>
+
+
+proxy settings
+Set Proxy in .npmrc File
+proxy=http://proxy.example.com:8080
+https-proxy=http://proxy.example.com:8080
+
+location of the File
+Global .npmrc is typically located at:
+Windows: %USERPROFILE%\.npmrc
+
+To View Current Proxy Settings
+npm config get proxy
+npm config get https-proxy
+
+try with verbose command to get more details
+npm install bootstrap --verbose
+
+
+
+
+
+
+
+
+

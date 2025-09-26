@@ -1,0 +1,37 @@
+step 0
+check whether node --version and npm --version is working
+
+step 1
+mkdir add-two-numbers
+cd add-two-numbers
+npm init -y
+
+step 2  installing libraries.
+npm install bootstrap 
+
+step 3
+know your project structure.
+
+
+step 4
+add-two-numbers/
+│
+├── index.html
+├── script.js
+├── style.css
+└── node_modules/
+
+
+step5 
+create index.html
+
+step6
+create javascript file.
+
+step 7.
+link html and javascript
+
+step8
+run the html file directly... it is ok..
+
+

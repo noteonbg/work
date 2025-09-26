@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Two Numbers</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Add Two Numbers</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <input type="number" id="num1" class="form-control" placeholder="Enter first number" />
+        </div>
+        <div class="mb-3">
+          <input type="number" id="num2" class="form-control" placeholder="Enter second number" />
+        </div>
+        <button class="btn btn-primary w-100" onclick="addNumbers()">Add</button>
+        <div id="result" class="alert alert-success mt-3 d-none"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

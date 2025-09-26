@@ -1,0 +1,28 @@
+install create-react-app
+
+npm install –g create-react-app
+
+create a new react project.
+create-react-app a01hello-world-app
+
+message shown afterwards.
+npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd a01hello-world-app
+  npm start
+
+
+come to the project folder and then type npm start

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Aspirin", "type": "Medication", "description": "Pain reliever" },
+  { "id": 2, "name": "Amoxicillin", "type": "Antibiotic", "description": "Treats infections" },
+  { "id": 3, "name": "Blood Test", "type": "Procedure", "description": "Diagnostic test" },
+  { "id": 4, "name": "BrainTest", "type": "Patient", "description": "Age 45, IT person" }
+]

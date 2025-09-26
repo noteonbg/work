@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "id": "36ce",
+      "resourceId": "1",
+      "resourceName": "abc",
+      "status": false
+    },
+    {
+      "id": "1fd8",
+      "resourceId": "2",
+      "resourceName": "def",
+      "status": false
+    },
+    {
+      "id": "59f5",
+      "resourceId": "1",
+      "resourceName": "sensor",
+      "status": false
+    }
+  ]
+}

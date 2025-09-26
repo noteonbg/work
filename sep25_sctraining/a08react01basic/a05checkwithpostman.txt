@@ -1,0 +1,163 @@
+We'll send a POST request to create a new post using the JSONPlaceholder API.
+
+
+1. Open Postman
+
+2. Set Up the Request
+
+ Method: `POST`
+ URL: `https://jsonplaceholder.typicode.com/posts`
+ Headers:
+
+   `Content-Type`: `application/json`
+
+---
+
+3. Add JSON Body
+
+Click on the "Body" tab → Select raw → Choose JSON from the dropdown.
+Paste the following JSON:
+
+json
+{
+  "title": "My First Post",
+  "body": "This is the content of the post.",
+  "userId": 1
+}
+---
+
+4. Send the Request
+
+Click Send.
+
+---
+
+5. View the Response
+
+You should see a response like this (the `id` will be dynamically generated):
+
+json
+{
+  "title": "My First Post",
+  "body": "This is the content of the post.",
+  "userId": 1,
+  "id": 101
+}
+
+
+---
+
+
+🔹 GET All Posts
+
+ Method: `GET`
+ URL: `https://jsonplaceholder.typicode.com/posts`
+
+🔹 GET Single Post
+
+ Method: `GET`
+ URL: `https://jsonplaceholder.typicode.com/posts/1`
+
+🔹 PUT (Update a Post)
+
+ Method: `PUT`
+ URL: `https://jsonplaceholder.typicode.com/posts/1`
+ Body: Same JSON format as POST
+
+🔹 DELETE
+
+ Method: `DELETE`
+ URL: `https://jsonplaceholder.typicode.com/posts/1`
+
+---------------------------------------------------------
+
+Great! Let's enhance the example by adding custom headers to the HTTP request and then viewing the response headers in Postman.
+
+---
+
+ Enhanced Example with Headers in Postman
+
+We'll continue using JSONPlaceholder with a POST request.
+
+
+Step-by-Step Instructions
+
+1. Set Up POST Request
+
+ Method: `POST`
+ URL: `https://jsonplaceholder.typicode.com/posts`
+
+---
+
+# 2. Add Request Headers
+
+Click the "Headers" tab in Postman, and add the following:
+
+| KEY             | VALUE                    |
+| --------------- | ------------------------ |
+| Content-Type    | application/json         |
+| X-Custom-Header | CustomHeaderValue        |
+| Authorization   | Bearer dummy\_token\_123 |
+
+> These are example headers. The API won’t validate them,
+ but you’ll see them sent in the request.
+
+---
+
+# 3. Set Request Body
+
+In the "Body" tab → Select raw → Choose JSON.
+
+Paste this:
+
+json
+{
+  "title": "Header Test Post",
+  "body": "Testing custom headers in Postman.",
+  "userId": 10
+}
+
+
+
+# 4. Send the Request
+
+Click Send.
+
+
+# 5. View Response Headers
+
+After you get a response:
+
+ Scroll down to the "Headers" section of the response.
+ You'll see headers like:
+
+
+Content-Type: application/json; charset=utf-8
+Content-Length: 83
+Connection: keep-alive
+X-Powered-By: Express
+
+
+These are the response headers sent by the server.
+
+🔍 How to Inspect Sent Headers
+
+To see what headers were actually sent:
+
+ Click on the "Console" button (bottom left of Postman).
+ You'll see the request details, including:
+
+http
+POST /posts HTTP/1.1
+Host: jsonplaceholder.typicode.com
+X-Custom-Header: CustomHeaderValue
+Authorization: Bearer dummy_token_123
+Content-Type: application/json
+---
+
+Summary
+
+ You can add any headers in the Headers tab.
+ The console shows all request details.
+ The response headers appear below the response body in the Headers tab.
+

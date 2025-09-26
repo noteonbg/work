@@ -1,0 +1,18 @@
+ensure package.json is created by npm init -y
+
+a02jsonffolder/
+├── index.html
+└── script.js
+
+
+
+
+data.json
+[
+  { "id": 1, "name": "Alice" },
+  { "id": 2, "name": "Bob" },
+  { "id": 3, "name": "Charlie" }
+]
+
+
+create index.js
